@@ -42,7 +42,7 @@ export default function NavbarComponent(){
                     <a href="https://github.com/matter13311" target="_blank" rel="noopener noreferrer" className=" ml-4 p-1">
                         <FaGithub/>
                     </a>
-                    <a href="https://www.linkedin.com/in/matthew-liang-854637169/" target="_blank" rel="noopener noreferrer" className="ml-4 p-1">
+                    <a href="https://www.linkedin.com/in/laura-willson" target="_blank" rel="noopener noreferrer" className="ml-4 p-1">
                         <FaLinkedinIn />
                     </a>
                 </div>
