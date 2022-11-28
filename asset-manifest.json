@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.6e5e4363.css",
-    "main.js": "/react-portfolio/static/js/main.0c1a7e00.js",
+    "main.css": "/react-portfolio/static/css/main.73b20257.css",
+    "main.js": "/react-portfolio/static/js/main.3df2ecab.js",
     "static/js/787.b554861c.chunk.js": "/react-portfolio/static/js/787.b554861c.chunk.js",
+    "static/media/ray-gif.gif": "/react-portfolio/static/media/ray-gif.69fe89d8076a312008fd.gif",
     "static/media/CleanUp_UX_Design.png": "/react-portfolio/static/media/CleanUp_UX_Design.b9399022f2ebcf189f42.png",
-    "static/media/UI_UX_Design.png": "/react-portfolio/static/media/UI_UX_Design.774fe8c6042ce830115e.png",
-    "static/media/UI_UX_Process.png": "/react-portfolio/static/media/UI_UX_Process.25d4e925b24d97949f2d.png",
     "static/media/Laura_Willson_Resume.pdf": "/react-portfolio/static/media/Laura_Willson_Resume.f86620770d8d9955b210.pdf",
-    "static/media/Pizza_App_Prototype.png": "/react-portfolio/static/media/Pizza_App_Prototype.05923aefdc4c26e559ab.png",
+    "static/media/I_Want_A_Pizza_That.png": "/react-portfolio/static/media/I_Want_A_Pizza_That.ae4562343405ac100c2a.png",
     "index.html": "/react-portfolio/index.html",
-    "main.6e5e4363.css.map": "/react-portfolio/static/css/main.6e5e4363.css.map",
-    "main.0c1a7e00.js.map": "/react-portfolio/static/js/main.0c1a7e00.js.map",
+    "main.73b20257.css.map": "/react-portfolio/static/css/main.73b20257.css.map",
+    "main.3df2ecab.js.map": "/react-portfolio/static/js/main.3df2ecab.js.map",
     "787.b554861c.chunk.js.map": "/react-portfolio/static/js/787.b554861c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e5e4363.css",
-    "static/js/main.0c1a7e00.js"
+    "static/css/main.73b20257.css",
+    "static/js/main.3df2ecab.js"
   ]
 }
