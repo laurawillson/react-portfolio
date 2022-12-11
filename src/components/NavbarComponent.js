@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaGithub, FaReadme } from "react-icons/fa"
 
 export default function NavbarComponent(){
     const navItems =[
-        "HOME", "ABOUT", "EXPERIENCE", "SKILLS", "RESUME", "CONTACT"
+        "HOME", "PORTFOLIO", "RESUME", "CONTACT"
     ]
     const [isMobileNavOpen, setisMobileNavOpen ] = useState(false);
     function handleMobileBarClick(){
@@ -39,7 +39,7 @@ export default function NavbarComponent(){
                     <a href="#RESUME" className="ml-4 p-1">
                         <FaReadme/>
                     </a>
-                    <a href="https://github.com/matter13311" target="_blank" rel="noopener noreferrer" className=" ml-4 p-1">
+                    <a href="https://github.com/laurawillson" target="_blank" rel="noopener noreferrer" className=" ml-4 p-1">
                         <FaGithub/>
                     </a>
                     <a href="https://www.linkedin.com/in/laura-willson" target="_blank" rel="noopener noreferrer" className="ml-4 p-1">
@@ -53,8 +53,8 @@ export default function NavbarComponent(){
                         {
                             navItems.map((items,index)=>{
                                 return(
-                                    <li>
-                                        <a key={index} href={"#"+ items} className="block py-2 pr-4 pl-3 text-white bg-transparent rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
+                                    <li key={index}>
+                                        <a key={index} href={"#"+ items} className="block py-2 pr-4 pl-3 text-white bg-transparent rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">
                                             {items}
                                         </a>
                                     </li>
@@ -73,7 +73,7 @@ export default function NavbarComponent(){
                 {
                     navItems.map((items,index)=>{
                         return(
-                            <li>
+                            <li key={index}>
                                 <a key={index} href={"#"+ items} className="block py-2 pr-4 pl-3 text-white bg-transparent rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
                                     {items}
                                 </a>
