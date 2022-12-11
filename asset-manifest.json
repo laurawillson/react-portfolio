@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.73b20257.css",
-    "main.js": "/react-portfolio/static/js/main.b954eb42.js",
+    "main.css": "/react-portfolio/static/css/main.e50cd189.css",
+    "main.js": "/react-portfolio/static/js/main.cd173752.js",
     "static/js/787.b554861c.chunk.js": "/react-portfolio/static/js/787.b554861c.chunk.js",
     "static/media/ray-gif.gif": "/react-portfolio/static/media/ray-gif.69fe89d8076a312008fd.gif",
     "static/media/CleanUp_UX_Design.png": "/react-portfolio/static/media/CleanUp_UX_Design.b9399022f2ebcf189f42.png",
     "static/media/Laura_Willson_Resume.pdf": "/react-portfolio/static/media/Laura_Willson_Resume.b3640ff9cc1360a120ba.pdf",
     "static/media/I_Want_A_Pizza_That.png": "/react-portfolio/static/media/I_Want_A_Pizza_That.ae4562343405ac100c2a.png",
     "index.html": "/react-portfolio/index.html",
-    "main.73b20257.css.map": "/react-portfolio/static/css/main.73b20257.css.map",
-    "main.b954eb42.js.map": "/react-portfolio/static/js/main.b954eb42.js.map",
+    "main.e50cd189.css.map": "/react-portfolio/static/css/main.e50cd189.css.map",
+    "main.cd173752.js.map": "/react-portfolio/static/js/main.cd173752.js.map",
     "787.b554861c.chunk.js.map": "/react-portfolio/static/js/787.b554861c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73b20257.css",
-    "static/js/main.b954eb42.js"
+    "static/css/main.e50cd189.css",
+    "static/js/main.cd173752.js"
   ]
 }
