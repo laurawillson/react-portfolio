@@ -10,8 +10,8 @@ export default function ThumbnailLinkComponent({
 }){
     return(
         <div className="p-10 min-w-[72rem] max-w-[72rem] m-auto">
-            <div className="border-t-2 border-slate-400">
-                <div className="mt-2 font-normal text-xl">
+            <div className="border-t-2 border-black">
+                <div className="mt-2 text-xl font-bold">
                     {project_title}
                 </div>
                 <div className="flex flex-row mb-4">
@@ -20,7 +20,7 @@ export default function ThumbnailLinkComponent({
                         hashtags.map((hashtag_name,index)=>{
                             hashtag_name = "#" + hashtag_name
                             return(
-                                <div key={index} className="mr-2 font-semibold text-gray-500 text-sm">
+                                <div key={index} className="mr-2 font-semibold text-black text-sm">
                                     {hashtag_name}
                                 </div>
                             )
