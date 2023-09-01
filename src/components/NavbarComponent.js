@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaGithub, FaReadme } from "react-icons/fa"
 
 export default function NavbarComponent(){
     const navItems =[
-        "PORTFOLIO", "RESUME", "CONTACT"
+        "PROJECTS", "RESUME", "CONTACT"
     ]
     const [isMobileNavOpen, setisMobileNavOpen ] = useState(false);
     function handleMobileBarClick(){

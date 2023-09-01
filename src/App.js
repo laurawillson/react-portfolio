@@ -14,6 +14,6 @@ function App() {
 
 export default App;
 
-// npm start - runs server 
+// npm start - runs server
 //ctrl c - terminated batch job
 // npm run deploy - uploads the site
