@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { FaLinkedinIn, FaGithub, FaReadme } from "react-icons/fa"
+import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 
 export default function NavbarComponent(){
     const navItems =[
@@ -36,9 +36,6 @@ export default function NavbarComponent(){
                 </button>
 
                 <div className="mobile-icons-container flex align-middle text-3xl text-white">
-                    <a href="#RESUME" className="ml-4 p-1">
-                        <FaReadme/>
-                    </a>
                     <a href="https://github.com/laurawillson" target="_blank" rel="noopener noreferrer" className=" ml-4 p-1">
                         <FaGithub/>
                     </a>

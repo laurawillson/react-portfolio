@@ -1,6 +1,3 @@
-import { useState } from "react"
-import profileImage from '../img/Laura_Willson_UX_Designer_Resume.pdf';
-import {FaChevronDown } from "react-icons/fa"
 import ThumbnailLinkComponent from "./ThumbnailLinkComponent";
 import ContactComponent from "./ContactComponent"
 import Kikori_UX_Design from '../img/Kikori_Homepage.png';
@@ -41,7 +38,13 @@ export default function BodyContentComponent(){
                             href_link={"https://www.figma.com/proto/bULPVwztxaPCkIFfbtB00T/I-Want-A-Pizza-That!-Case-Study-%26-Prototype?type=design&node-id=3768-12&t=CHLgEweLGDTFJwAW-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3768%3A12&mode=design"}
                             overlay_text={"Click to see my project"}
                         />
-                
+
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+
             </div>
                     <div>
                         <ThumbnailLinkComponent
@@ -51,8 +54,6 @@ export default function BodyContentComponent(){
                             overlay_text={"Click to see my resume"}
                         />
                     </div>
-
-             
 
             <div id="CONTACT" className="home-container flex flex-col w-full  py-40 text-black my-5">
                 <div className="skills-content-header flex flex-col justify-start items-center">
