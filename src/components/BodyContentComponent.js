@@ -46,14 +46,14 @@ export default function BodyContentComponent(){
                 <br></br>
 
             </div>
-                    <div>
-                        <ThumbnailLinkComponent
-                            project_title={"Resume"}
-                            image_path={Resume}
-                            href_link={"https://docs.google.com/document/d/1knicjDFPERzrKuLHe5e0_f62rg-7K8KvITii6HN7kAg/edit?usp=sharing"}
-                            overlay_text={"Click to see my resume"}
-                        />
-                    </div>
+            <div id="RESUME">
+                <ThumbnailLinkComponent
+                    project_title={"Resume"}
+                    image_path={Resume}
+                    href_link={"https://docs.google.com/document/d/1knicjDFPERzrKuLHe5e0_f62rg-7K8KvITii6HN7kAg/edit?usp=sharing"}
+                    overlay_text={"Click to see my resume"}
+                />
+            </div>
 
             <div id="CONTACT" className="home-container flex flex-col w-full  py-40 text-black my-5">
                 <div className="skills-content-header flex flex-col justify-start items-center">
