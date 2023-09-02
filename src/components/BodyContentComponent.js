@@ -40,13 +40,13 @@ export default function BodyContentComponent(){
                         />
 
                 <br></br>
+                <br id="RESUME"></br>
                 <br></br>
-                <br></br>
-                <br></br>
+                <br ></br>
                 <br></br>
 
             </div>
-            <div id="RESUME">
+            <div >
                 <ThumbnailLinkComponent
                     project_title={"Resume"}
                     image_path={Resume}
