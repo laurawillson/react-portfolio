@@ -4,17 +4,29 @@ import { GoLinkExternal } from 'react-icons/go';
 export default function ThumbnailLinkComponent({
     project_title,
     hashtags,
+    sentence,
     image_path,
     href_link,
     overlay_text
 }){
+    const image_thumbnail_hover_cover = "bg-slate-300";
     return(
         <div className="p-10 min-w-[72rem] max-w-[72rem] m-auto">
             <div className="border-t-2 border-black">
                 <div className="mt-2 text-xl font-bold">
                     {project_title}
                 </div>
+
+                <div className="flex flex-row mb-2 mt-2">
+                    {
+                        sentence ?
+                        sentence
+                        :
+                        null
+                    }
+                </div>
                 <div className="flex flex-row mb-4">
+
                     {
                         hashtags !=undefined && hashtags.length > 0 ?
                         hashtags.map((hashtag_name,index)=>{
@@ -28,6 +40,7 @@ export default function ThumbnailLinkComponent({
                         :
                         null
                     }
+ 
                 </div>
                 <div className="group relative bg-white rounded-md">
                     <a href={href_link} target="_blank">
@@ -38,7 +51,7 @@ export default function ThumbnailLinkComponent({
                             <GoLinkExternal/>
                         </div>
                         <div
-                            className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-pink-200 opacity-0 group-hover:opacity-50 duration-500">
+                            className={`absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center ${image_thumbnail_hover_cover} opacity-0 group-hover:opacity-50 duration-500`}>
                         </div>
                         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center  opacity-0 group-hover:opacity-100 duration-500">
                             <h1 className="text-2xl text-slate-700 group-hover:opacity-100 p-5 rounded-full bg-white flex justify-center items-center">

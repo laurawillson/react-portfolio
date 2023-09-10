@@ -1,9 +1,11 @@
-import { useState } from "react"
-import { FaGithub, FaLinkedinIn } from "react-icons/fa"
+import { useState } from "react";
+
+import Laura_Profile from '../img/Laura_Profile.jpg';
+
 
 export default function NavbarComponent(){
     const navItems =[
-        "PROJECTS", "RESUME", "CONTACT"
+        "PROJECTS", "ABOUT", "CONTACT"
     ]
     const [isMobileNavOpen, setisMobileNavOpen ] = useState(false);
     function handleMobileBarClick(){
@@ -12,7 +14,7 @@ export default function NavbarComponent(){
     return(
         <>
         <nav className="navbar-container fixed w-full h-20 z-20 bg-zinc-800 p-6 sm:px-4">
-            <div className="container flex flex-wrap  w-full justify-between items-center mx-auto">
+            <div className="container flex  flex-wrap  w-full justify-between items-center mx-auto ">
                 <button id="mobile-button" type="button" 
                 onClick={handleMobileBarClick}
                 className={`
@@ -35,14 +37,18 @@ export default function NavbarComponent(){
                 <div className={`burgerbar w-6 bg-black h-1 rounded-md mt-1 ${isMobileNavOpen ? "-rotate-45 -translate-y-2" : ""}` }></div>
                 </button>
 
-                <div className="mobile-icons-container flex align-middle text-3xl text-white">
-                    <a href="https://github.com/laurawillson" target="_blank" rel="noopener noreferrer" className=" ml-4 p-1">
-                        <FaGithub/>
-                    </a>
-                    <a href="https://www.linkedin.com/in/laura-willson" target="_blank" rel="noopener noreferrer" className="ml-4 p-1">
-                        <FaLinkedinIn />
-                    </a>
+                
+                <div className="navbar-profile-container flex align-middle text-3xl text-white">
+                   <div className="navbar-profile-img">
+                        <img className="max-w-xs w-10 rounded-md" src={Laura_Profile}/>
+                   </div>
+                   <div className="profile-text flex items-start ml-2  flex-col justify-start">
+                        <div className="text-base">Laura Willson</div>
+                        <div className="text-xs">UX Designer</div>
+                    </div>
+                   
                 </div>
+                
 
                 {/* Hidden on mobile, appears on desktop */}
                 <div className={`hidden w-full bg-zinc-800  md:translate-y-0 md:block md:w-auto `} id="desktop-menu">
