@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { GoLinkExternal } from 'react-icons/go';
 
 export default function ThumbnailLinkComponent({
@@ -43,7 +44,7 @@ export default function ThumbnailLinkComponent({
  
                 </div>
                 <div className="group relative bg-white rounded-md">
-                    <a href={href_link} target="_blank">
+                    <Link to={href_link}>
                         <img className="w-full object-contain w-full max-h-[500px] rounded-md"
                             src={image_path} 
                         />
@@ -58,7 +59,7 @@ export default function ThumbnailLinkComponent({
                                 {overlay_text}
                             </h1>
                         </div>
-                    </a>
+                    </Link>
 
                 </div>
 

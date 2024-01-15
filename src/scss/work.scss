@@ -1,0 +1,50 @@
+.work-container{
+    padding:10.5rem 20rem;
+    .project-title{
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .sub-container{
+        margin-bottom: 5rem;
+    }
+    .heading-text{
+        font-weight:bold;
+        font-size: 30px;
+    }
+
+    .sub-heading-text{
+        font-weight:bold;
+        font-size: 22px;
+    }
+
+    .sub-text{
+        font-size: 18px;
+    }
+
+
+    .text-container-row{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .text-container-column{
+        display:flex;
+        flex-direction: column;
+    }
+
+
+    ul{
+        list-style: disc;
+        margin-left:40px;
+    }
+    b{
+        margin-right:5px;
+    }
+
+    ol{
+        list-style-type:decimal;
+        margin-left:40px;
+    }
+}

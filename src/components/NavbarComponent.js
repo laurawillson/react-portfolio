@@ -1,15 +1,32 @@
-import { useState } from "react";
-
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Laura_Profile from '../img/Laura_Profile.jpg';
 
 
 export default function NavbarComponent(){
-    const navItems =[
-        "PROJECTS", "ABOUT", "CONTACT"
+    const [show, setShow ] = React.useState(false);
+    const navItems2 = [
+     
+        {
+            label: "About",
+            is_link: true
+        },
+        {
+            label: "Contact",
+            is_link: true
+        }
     ]
     const [isMobileNavOpen, setisMobileNavOpen ] = useState(false);
     function handleMobileBarClick(){
         setisMobileNavOpen(!isMobileNavOpen);
+    }
+    React.useEffect(()=>{
+        console.log("window", window.location.pathname);
+    },[])
+
+    function updateNavActive(){
+        setShow(false);
+        console.log("window", window.location.pathname);
     }
     return(
         <>
@@ -53,13 +70,48 @@ export default function NavbarComponent(){
                 {/* Hidden on mobile, appears on desktop */}
                 <div className={`hidden w-full bg-zinc-800  md:translate-y-0 md:block md:w-auto `} id="desktop-menu">
                     <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                        <div className="relative inline-block text-left">
+                            <button 
+                                onClick={()=> setShow(!show)}
+                                type="button" 
+                                className="inline-flex w-full justify-center text-white bg-transparent  font-medium " 
+                                id="menu-button" aria-expanded="true" aria-haspopup="true">
+                                Projects
+                                <svg className="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
+                                </svg>
+                            </button>
+
+                            <div className={`absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${show ? '' : 'hidden'}`} role="menu" aria-orientation="vertical" aria-labelledby="menu-button" >
+                                <div className="py-1" role="none">
+                                    <Link 
+                                        onClick={updateNavActive}
+                                        to="/react-portfolio" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-2">All Projects</Link>
+                                    <Link 
+                                        onClick={updateNavActive}
+                                        to="/react-portfolio/Schedulete" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-1">Schedulete</Link>
+                                    <Link 
+                                        onClick={updateNavActive}
+                                        to="/react-portfolio/Kikori" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-0">Kikori</Link>
+                                    <Link 
+                                        onClick={updateNavActive}
+                                        to="/react-portfolio/Paella_Bowls" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-1">Paella Bowls</Link>
+                                </div>
+                            </div>
+                        </div>
                         {
-                            navItems.map((items,index)=>{
+                            navItems2.map((items,index)=>{
+
                                 return(
                                     <li key={index}>
-                                        <a key={index} href={"#"+ items} className="block py-2 pr-4 pl-3 text-white bg-transparent rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">
-                                            {items}
-                                        </a>
+                                        <Link 
+                                            onClick={updateNavActive}
+                                            key={index} 
+                                            to={items.is_link ? 'react-portfolio/' + items.label : "/#"+ items.label} 
+                                            className="block py-2 pr-4 pl-3 text-white bg-transparent rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page"
+                                        >
+                                            {items.label.replaceAll("_", " ")}
+                                        </Link>
                                     </li>
                                 )
                             })
@@ -73,20 +125,55 @@ export default function NavbarComponent(){
         {/* Visible on mobile, hidden on desktop */}
         <div className={`fixed px-6 sm:px-8 w-full bg-zinc-800 z-10 ${isMobileNavOpen ? "translate-y-20" : "-translate-y-80"}  md:hidden `} id="mobile-menu">
             <ul className="flex pb-4 flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                    <div className="relative inline-block text-left">
+                        <button 
+                            onClick={()=> setShow(!show)}
+                            type="button" 
+                            className="inline-flex w-full justify-center text-white bg-transparent  font-medium " 
+                            id="menu-button" aria-expanded="true" aria-haspopup="true">
+                            Projects
+                            <svg className="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
+                            </svg>
+                        </button>
+
+                        <div className={`absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${show ? '' : 'hidden'}`} role="menu" aria-orientation="vertical" aria-labelledby="menu-button" >
+                            <div className="py-1" role="none">
+                                <Link onClick={updateNavActive} to="/react-portfolio" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-2">All Projects</Link>
+                                <Link onClick={updateNavActive} to="/react-portfolio/Kikori" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-0">Kikori</Link>
+                                <Link onClick={updateNavActive} to="/react-portfolio/Paella_Bowls" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-1">Paella Bowls</Link>
+                            </div>
+                        </div>
+
+
+                    </div>
                 {
-                    navItems.map((items,index)=>{
-                        return(
-                            <li key={index}>
-                                <a key={index} href={"#"+ items} className="block py-2 pr-4 pl-3 text-white bg-transparent rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
-                                    {items}
-                                </a>
-                            </li>
-                        )
-                    })
+                    navItems2.map((items,index)=>{
+                        <li key={index}>
+                            <Link 
+                                onClick={updateNavActive}
+                                key={index} 
+                                to={items.is_link ? 'react-portfolio/' + items.label : "/#"+ items.label} 
+                                className="block py-2 pr-4 pl-3 text-white bg-transparent rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page"
+                            >
+                                {items.label.replaceAll("_", " ")}
+                            </Link>
+                        </li>
+                    }
+                    )
                 }
 
             </ul>
+
+
+
         </div>
+
+            <div
+                onClick={() => setShow(false)} 
+                className={`h-screen w-screen bg-transparent  ${show ? 'absolute' : 'hidden'}`}>
+                                
+            </div>
         </>
     )
 }

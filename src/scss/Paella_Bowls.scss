@@ -1,0 +1,22 @@
+.work-container{
+    .laptop-image-container{
+
+        position:relative;
+        width: fit-content;
+        margin: auto;
+        .laptop-image{
+            margin:auto;
+        }
+
+
+
+    }
+
+
+    .image-w-30{
+        max-width: 400px;
+        min-width:400px;
+        height: auto;
+        
+    }
+}
