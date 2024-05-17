@@ -1,6 +1,6 @@
 import '../../scss/work.scss';
 import '../../scss/Kikori.scss';
-import kikori_laptop_project from '../kikori_imgs/kikori_laptop_project.png';
+import Kikori_Homepage from '../kikori_imgs/Kikori_Homepage.png';
 import nine_grid_image from '../kikori_imgs/nine-grid-image.png';
 import zoom_call_image from '../kikori_imgs/zoom_call_image.png';
 import persona1 from '../kikori_imgs/Persona_1_Anna.png';
@@ -23,6 +23,7 @@ import journeyboard_recommendations from '../kikori_imgs/hi_fi_designs/journeybo
 import lofi_screenshot from '../kikori_imgs/lofi_screenshot.png';
 import midfi_screenshot from '../kikori_imgs/midfi_screenshot.png';
 import hifi_screenshot from '../kikori_imgs/hifi_screenshot.png';
+import Footer from '../../components/Footer';
 
 export default function Kikori(){
     const project_title = 'Kikori';
@@ -31,10 +32,10 @@ export default function Kikori(){
         <div className="work-container">
             <div className='project-title'> {project_title} </div>
             <div className='laptop-image-container'>
-
-                <img className="laptop-image" src={kikori_laptop_project}/>
-
+                <img className="laptop-image" src={Kikori_Homepage}/>
             </div>
+            <br></br>
+            <br></br>
 
             <div className="sub-container overview">
                 <div className="heading-text">
@@ -84,10 +85,10 @@ export default function Kikori(){
 
                     <div className="text-container-row mt-10">
                         <div className="flex w-1/2"> 
-                            <b>Problem:</b> Encourage users to stay on the web app longer.
+                            <b>Problem:</b> Promote prolonged engagement on the web app.
                         </div>
                         <div className="flex w-1/2"> 
-                            <b>Solution:</b> Design an engaging user experience that encourages interaction through user-centered design, high-quality content, social integration, personalization, feedback mechanisms, and ongoing optimization. 
+                            <b>Solution:</b> Create a captivating user experience that fosters interaction by prioritizing user needs, delivering top-tier content, seamlessly integrating social elements, tailoring experiences, implementing feedback channels, and continuously refining for optimal performance.
                         </div>
                     </div>
                 </div>
@@ -100,12 +101,12 @@ export default function Kikori(){
                 </div>
                 <br></br>
                 <div className="sub-text">
-                    To better understand Kikori's background, market space, and who Kikori's users are, my team and I started with the following goals:
+                    To gain deeper insights into Kikori's background, market positioning, and user demographics, my team and I initiated our efforts with the following objectives:
                     <br></br>
                         <ul>
-                            <li>Create a meaningful user experience so users can find/search activities</li>
-                            <li>Design a user-friendly and visually appealing interface that aligns with Kikori's brand and UI standards</li>
-                            <li>Enhance user engagement and retention by implementing features and content that provide compelling reasons for users to stay longer</li>
+                            <li>Craft a purposeful user experience to facilitate activity discovery and searchability</li>
+                            <li>Develop an intuitive and aesthetically pleasing interface that reflects Kikori's brand identity and adheres to its UI guidelines</li>
+                            <li>Boost user engagement and retention by incorporating features and content that offer compelling incentives for extended interaction</li>
                         </ul>  
                 </div>
             </div>
@@ -125,7 +126,7 @@ export default function Kikori(){
                         <div className="sub-text">
                             We analyzed Kikori's top competitors to evaluate their strengths and weaknesses. This information helped us to understand what the trends are across all competitors, their unique differences, and why users might choose a particular service over another. These learnings helped guide our approach to our designs.
                         </div>
-
+                        <br></br>
                         <div className="flex">
                             <div>
                                 <div className="sub-text mt-10">
@@ -594,6 +595,11 @@ export default function Kikori(){
                 </div>
             </div>
             
+            <br></br>
+            <br></br>
+            <br></br>
+
+            <Footer/>
         </div>
     )
 }

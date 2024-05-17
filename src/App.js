@@ -1,4 +1,5 @@
 import NavbarComponent from "./components/NavbarComponent";
+import ScrollToTop from "./components/ScrollToTop";
 import BodyContentComponent from "./components/BodyContentComponent";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -10,13 +11,14 @@ function App() {
   return (
     <>
     <NavbarComponent/>
+    <ScrollToTop/>
     <Routes>
         <Route path="/react-portfolio" element={<BodyContentComponent/>}/>
         <Route path="/react-portfolio/About" element={<About/>}/>
         <Route path="/react-portfolio/Contact" element={<Contact/>}/>
-        <Route path="/react-portfolio/Kikori" element={<Kikori />} />
-        <Route path="/react-portfolio/Paella_Bowls" element={<Paella_Bowls />} />
-        <Route path="/react-portfolio/Schedulete" element={<Schedulete />} />
+        <Route path="/react-portfolio/Kikori" element={<Kikori/>} />
+        <Route path="/react-portfolio/Paella_Bowls" element={<Paella_Bowls/>} />
+        <Route path="/react-portfolio/Schedulete" element={<Schedulete/>}/>
     </Routes>
     </>
 

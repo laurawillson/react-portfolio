@@ -1,6 +1,6 @@
 import '../../scss/work.scss';
 import '../../scss/Paella_Bowls.scss';
-import homepage from '../paella_bowls_imgs/homepage.png';
+import Paella_Bowls_Homepage from '../paella_bowls_imgs/Paella_Bowls_Homepage.png';
 import user_persona_maryann_green from '../paella_bowls_imgs/user_persona_maryann_green.png';
 import user_journey_mapping from '../paella_bowls_imgs/user_journey_mapping.png';
 import sketches from '../paella_bowls_imgs/sketches.png';
@@ -10,6 +10,7 @@ import before_and_after_first_study from '../paella_bowls_imgs/before_and_after_
 import before_and_after_second_study from '../paella_bowls_imgs/before_and_after_second_study.png'
 import key_mockups from '../paella_bowls_imgs/key_mockups.png'
 import digital_wireframes from '../paella_bowls_imgs/digital_wireframes.png'
+import Footer from '../../components/Footer'
 
 export default function Paella_Bowls(){
     const project_title = 'Paella Bowls';
@@ -19,7 +20,7 @@ export default function Paella_Bowls(){
             <div className='project-title'> {project_title} </div>
             <div className='paella-bowls-homepage-container'>
                 <br></br>
-                <img className="paella-bowls-homepage max-w-xs m-auto" src={homepage}/>
+                <img className="paella-bowls-homepage" src={Paella_Bowls_Homepage}/>
             </div>
             <br></br>
             <br></br>
@@ -31,7 +32,7 @@ export default function Paella_Bowls(){
                 <br></br>
                 <div className="text-container-row">
                     <div className="sub-text w-1/2">
-                        Paella Bowls is a mobile app that sells Paellas and strives to deliver delicious paella dishes. Paella Bowls makes it easier for commuting workers to order a delicious paella for lunch or dinner.
+                        Paella Bowls is a mobile application dedicated to offering delectable paella dishes. Designed to cater to busy commuters, it simplifies the process of ordering mouthwatering paellas for both lunch and dinner.                    
                     </div>
 
                     <div className="text-container-column ml-10">
@@ -47,7 +48,7 @@ export default function Paella_Bowls(){
                             <li>Prototyping</li>
                         </ul>  
                         <div className="flex"> 
-                            <b>Timeline:</b> 7 months
+                            <b>Duration:</b> 7 months
                         </div>
                     </div>
                 </div>
@@ -61,15 +62,15 @@ export default function Paella_Bowls(){
                 <br></br>
                 <div className="text-container-column">
                     <div className="sub-text ">
-                    Design an app for a Spanish Restaurant.
+                        Create a mobile application tailored for a traditional Spanish dining experience.
                     </div>
 
                     <div className="text-container-row mt-10">
                         <div className="flex w-1/2"> 
-                            <b>Problem:</b> Commuting workers lack the time necessary to prepare a meal.
+                            <b>Problem:</b> Busy commuters often find themselves short on time to cook meals.
                         </div>
                         <div className="flex w-1/2"> 
-                            <b>Solution:</b> Design an app that allows users to easily order delicious paella dishes for pickup or delivery.
+                            <b>Solution:</b> Craft an app that enables seamless ordering of paella dishes for either pickup or delivery.
                         </div>
                     </div>
                 </div>
@@ -89,10 +90,11 @@ export default function Paella_Bowls(){
                     <div className="text-container-col">
                         <div className="text-container-column ">
                             <div className="sub-text">
-                                To make sure that my decisions moving forward in the process are user-centered, I wanted to have a clear understanding of who Paella Bowls' potential users would be. So, I created a user persona to represent who I will be designing for. Meet MaryAnn:
+                                To ensure that my future decisions in the process remain focused on the user, I aimed to establish a comprehensive understanding of Paella Bowls' prospective user base. Thus, I crafted a user persona to embody the individuals I'll be designing for. Allow me to introduce you to MaryAnn:
                             </div>
                         </div>
-                        <img className="m-auto mt-5"src={user_persona_maryann_green}/>
+                        <br></br>
+                        <img className="persona w-full"src={user_persona_maryann_green}/>
                     </div>
                 </div>
 
@@ -105,12 +107,13 @@ export default function Paella_Bowls(){
                     <div className="text-container-col">
                         <div className="text-container-column">
                             <div className="sub-text">
-                                While completing the journey map, I was able to think like MaryAnn and how she might use the app. I also thought about ways that the app can be improved, not only for MaryAnn, but also for every type of user.
+                                As I worked on the journey map, I put myself in MaryAnn's shoes to envision how she would interact with the app. Additionally, I brainstormed enhancements that could benefit not only MaryAnn but also cater to the needs of various user profiles.
                             </div>
                         </div>
-                        <img className="m-auto mt-5"src={user_journey_mapping}/>
+                        <br></br>
+                        <img className="user_journey_mapping w-full"src={user_journey_mapping}/>
                     </div>
-            </div>
+                </div>
 
 
                 <div className="sub-heading-text">
@@ -120,7 +123,7 @@ export default function Paella_Bowls(){
                 <div className="text-container-column">
                     <div className="text-container-column">
                         <div className="sub-text">
-                            Now, it was time to validate the persona and user journey map through user interviews with potential Paella Bowls customers. During these interviews, I asked open-ended questions to learn as much as I could about their experiences and identify what the user’s needs truly are.
+                            Now, the next step was to validate the persona and user journey map by conducting user interviews with potential Paella Bowls customers. Throughout these interviews, I posed open-ended questions aimed at gaining comprehensive insights into their experiences and uncovering their genuine needs.
                         </div>
                         <br></br>
                         <div className="sub-text">
@@ -138,7 +141,7 @@ export default function Paella_Bowls(){
                         <br></br>
 
                         <div className="sub-text">
-                            After conducting these one-on-one sessions with the participants, I wanted to take all this new information gained and synthesize it to better understand who the users are.
+                            After completing these individual sessions with the participants, I aimed to assimilate all the newly acquired information to gain a deeper understanding of the user demographics.
                         </div>
                     </div>
                 </div>
@@ -154,7 +157,7 @@ export default function Paella_Bowls(){
                 <div className="text-container-col">
                     <div className="text-container-column ">
                         <div className="sub-text">
-                            I conducted two rounds of usability studies. Findings from the first study helped guide the designs from wireframes to mockups. The second study used a high-fidelity prototype and revealed what aspects of the mockups needed refining. I observed five participants while they completed a series of tasks to see how they order a paella bowl on the app.
+                            I conducted two rounds of usability studies. Insights gathered from the initial study informed the transition of designs from wireframes to mockups. In the second study, which utilized a high-fidelity prototype, I identified areas in the mockups requiring refinement. I observed five participants as they navigated through a series of tasks to understand their paella bowl ordering process on the app.
                         </div>
                     </div>
                     <br></br>
@@ -164,9 +167,9 @@ export default function Paella_Bowls(){
                             <b>Round 1 Insights:</b>
                         </div>
                         <ol>
-                            <li>People want to order paellas quickly</li>
-                            <li>People want more customization options</li>
-                            <li>“Edit order” functionality is confusing</li>
+                            <li>Users desire a seamless and expedited paella ordering process</li>
+                            <li>Users are seeking increased options for personalization</li>
+                            <li>The “Edit order” functionality is confusing</li>
                         </ol>  
                     </div>
                     <br></br>
@@ -176,8 +179,8 @@ export default function Paella_Bowls(){
                             <b>Round 2 Insights:</b>
                         </div>
                         <ol>
-                            <li>Users want to be able to speak with a customer service representative if they are experiencing issues with their order</li>
-                            <li>Users want a straightforward and easy to use app</li>
+                            <li>Users value the option to connect with a customer service representative should they encounter any challenges with their order</li>
+                            <li>Users seek an intuitive and user-friendly app experience</li>
                         </ol>  
                     </div>
                 </div>
@@ -197,12 +200,22 @@ export default function Paella_Bowls(){
                 <div className="text-container-col">
                     <div className="text-container-column ">
                         <div className="sub-text">
-                            Taking the time to draft iterations of each screen of the app on paper ensured that the elements that made it to digital wireframes would be well-suited to address user pain points. For the home screen, I prioritized a quick and easy ordering process to help users save time.                        
+                            Carefully sketching multiple iterations of each app screen on paper ensured that the elements eventually translated into digital wireframes effectively addressed user concerns. Emphasizing a streamlined ordering process on the home screen aimed to enhance user efficiency and save valuable time.                        
                         </div>
                     </div>
 
                     <img className="m-auto mt-5"src={sketches}/>
+                    <br></br>
+                    <div>
+                        <div>A. Homepage</div>
+                        <div>B. Recommended Bowls Page</div>
+                        <div>C. Bowl of the Day Page</div>
+                        <div>D. Build Your Own Bowl Page</div>
+                        <div>E. Top Bowl Page</div>
+                        <div>Home v1. Second Version of Homepage</div>
+                    </div>
                 </div>
+
             </div>
 
             <div className="sub-container digital-wireframes">
@@ -213,7 +226,7 @@ export default function Paella_Bowls(){
 
                 <div className="text-container-column">
                     <div className="sub-text">
-                        As the initial design phase continued, I made sure to base screen designs on feedback and findings from the user research. Easy navigation was a key user need to address in the designs.
+                        Throughout the initial design phase, I prioritized incorporating feedback and insights gleaned from user research into the screen designs. Simplified navigation emerged as a crucial aspect to fulfill the users needs effectively.
                     </div>
                     <br></br>
                     <br></br>
@@ -228,7 +241,7 @@ export default function Paella_Bowls(){
                 <br></br>
                 <div className="text-container-column">
                     <div className="sub-text mb-10">
-                        The low-fidelity prototype connected the primary user flow of building and ordering a paella so the prototype could be used in a usability study.
+                        The low-fidelity prototype laid the foundation for the primary user journey of constructing and placing a paella order, facilitating its integration into a usability study.
                     <br></br>
                     </div>
 
@@ -250,7 +263,7 @@ export default function Paella_Bowls(){
                 <br></br>
                 <div className="text-container-column">
                     <div className="sub-text">
-                        Early designs allowed for users to be able to easily choose a top dish, recommended bowl, or to build their own paella bowl. After the first usability study, I added <b>“PAELLAS YOU MIGHT LIKE”</b>so users have more options to choose from when they first land on the home screen.
+                        The initial designs allowed users to easily choose between top dishes, recommended bowls, or customize their own paella bowl. After the initial usability study, I implemented the "PAELLAS YOU MIGHT LIKE" feature to provide users with more choices when they land on the home screen.
                     </div>
                     <br></br>
 
@@ -262,7 +275,7 @@ export default function Paella_Bowls(){
 
                     <div className="text-container-column">
                         <div className="sub-text mb-10">
-                            The second usability study revealed frustration with not being able to speak with a customer service representative if they are experiencing issues with their order. I added a <b>“Contact Us”</b>option in the menu, which leads to a page where users can either send a message or start a live chat with a customer service representative.
+                            The second usability study uncovered user frustration stemming from the inability to contact a customer service representative when encountering order issues. In response, I integrated a "Contact Us" option within the menu, providing users with the ability to either send a message or initiate a live chat with a customer service representative.
                         </div>
 
                         <div className="image-w-80 m-auto">
@@ -281,7 +294,7 @@ export default function Paella_Bowls(){
                     <br></br>
                     <div className="text-container-column">
                         <div className="sub-text">
-                            These are the main pages that users utilize during their experience on the app.
+                            These are the primary pages that users engage with throughout their app experience and encapsulate the user journey from start to finish.
                         </div>
                     </div>
                     <br></br>
@@ -297,7 +310,7 @@ export default function Paella_Bowls(){
                     <br></br>
                     <div className="text-container-column">
                         <div className="sub-text mb-10">
-                            The high-fidelity prototype presented cleaner user flows for building a paella and checkout. It also met user needs for a pickup or delivery option as well as provided more options for customization.
+                            The high-fidelity prototype introduced streamlined user pathways for creating a paella and completing the checkout process. Additionally, it fulfilled user requirements for both pickup and delivery choices while offering enhanced customization options.
                         <br></br>
                         </div>
 
@@ -321,16 +334,16 @@ export default function Paella_Bowls(){
 
                 <div className="sub-text">
                     <b>Impact:</b>
-                    The app makes sure users feel like Paella Bowls thinks about how to meet their everyday needs.
+                        The app ensures that users perceive Paella Bowls as attentive to their everyday requirements.
                 </div>
                 <br></br>
 
                 <div className="sub-text">
                     <b>What I learned:</b>
                         <ul>
-                            <li>The first ideas for an app are only the beginning of the process and there is always room for improvement.</li>
-                            <li>Usability studies and peer feedback are important and influence each iteration of the app’s designs.</li>
-                            <li>Accessibility for all users is important.</li>
+                            <li>The initial concepts for an app mark just the starting point of the journey, leaving ample space for refinement and enhancement.</li>
+                            <li>Usability studies and feedback from peers play a critical role in shaping every iteration of the app's designs.</li>
+                            <li>It's crucial to prioritize accessibility for all users.</li>
                         </ul>
                 </div>
                 <br></br>
@@ -343,15 +356,20 @@ export default function Paella_Bowls(){
                 <br></br>
 
                 <div className="sub-text">
-                    If I were to push this project further, I would:
+                    If I were to take this project to the next level, I would:
                         <ul>
-                            <li>Conduct another round of usability studies to validate whether the pain points users experienced have been effectively addressed.</li>
-                            <li>Conduct more user interviews to determine any new areas of need.</li>
-                            <li>Make more improvements to the design of the app.</li>
+                            <li>Execute another series of usability studies to confirm the effectiveness of the solutions implemented in addressing user pain points.</li>
+                            <li>Conduct additional user interviews to identify any emerging areas of need.</li>
+                            <li>Further enhance the app's design.</li>
                         </ul>  
                 </div>
             </div>
 
+            <br></br>
+            <br></br>
+            <br></br>
+
+            <Footer/>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, redirect } from "react-router-dom";
 import Laura_Profile from '../img/Laura_Profile.jpg';
-
+import LW_Logo from '../img/LW_Logo.svg';
 
 export default function NavbarComponent(){
     const [show, setShow ] = React.useState(false);
@@ -30,7 +30,7 @@ export default function NavbarComponent(){
     }
     return(
         <>
-        <nav className="navbar-container fixed w-full h-20 z-20 bg-zinc-800 p-6 sm:px-4">
+        <nav className="navbar-container fixed w-full h-20 z-20  p-6 sm:px-4 ">
             <div className="container flex  flex-wrap  w-full justify-between items-center mx-auto ">
                 <button id="mobile-button" type="button" 
                 onClick={handleMobileBarClick}
@@ -54,27 +54,26 @@ export default function NavbarComponent(){
                 <div className={`burgerbar w-6 bg-black h-1 rounded-md mt-1 ${isMobileNavOpen ? "-rotate-45 -translate-y-2" : ""}` }></div>
                 </button>
 
+                <div onClick={()=>window.location.href = '/react-portfolio'}
                 
-                <div className="navbar-profile-container flex align-middle text-3xl text-white">
+                    className="navbar-profile-container flex align-middle text-3xl text-zinc-800 cursor-pointer">
                    <div className="navbar-profile-img">
-                        <img className="max-w-xs w-10 rounded-md" src={Laura_Profile}/>
+                        <img className="max-w-xs w-10 rounded-md" src={LW_Logo}/>
                    </div>
                    <div className="profile-text flex items-start ml-2  flex-col justify-start">
-                        <div className="text-base">Laura Willson</div>
-                        <div className="text-xs">UX Designer</div>
+                        <div className="text-base text-zinc-800">Laura Willson</div>
+                        <div className="text-xs text-zinc-800">UX Designer</div>
                     </div>
-                   
                 </div>
-                
 
                 {/* Hidden on mobile, appears on desktop */}
-                <div className={`hidden w-full bg-zinc-800  md:translate-y-0 md:block md:w-auto `} id="desktop-menu">
+                <div className={`hidden w-full bg-transparent text-zinc-800  md:translate-y-0 md:block md:w-auto `} id="desktop-menu">
                     <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                         <div className="relative inline-block text-left">
                             <button 
                                 onClick={()=> setShow(!show)}
                                 type="button" 
-                                className="inline-flex w-full justify-center text-white bg-transparent  font-medium " 
+                                className="inline-flex w-full justify-center text-zinc-800 bg-transparent  font-medium " 
                                 id="menu-button" aria-expanded="true" aria-haspopup="true">
                                 Projects
                                 <svg className="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -108,7 +107,7 @@ export default function NavbarComponent(){
                                             onClick={updateNavActive}
                                             key={index} 
                                             to={items.is_link ? 'react-portfolio/' + items.label : "/#"+ items.label} 
-                                            className="block py-2 pr-4 pl-3 text-white bg-transparent rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page"
+                                            className="block py-2 pr-4 pl-3 text-zinc-800 bg-transparent rounded md:bg-transparent md:p-0 dark:text-zinc-800" aria-current="page"
                                         >
                                             {items.label.replaceAll("_", " ")}
                                         </Link>
@@ -116,7 +115,6 @@ export default function NavbarComponent(){
                                 )
                             })
                         }
-
                     </ul>
                 </div>
             </div>
@@ -129,7 +127,7 @@ export default function NavbarComponent(){
                         <button 
                             onClick={()=> setShow(!show)}
                             type="button" 
-                            className="inline-flex w-full justify-center text-white bg-transparent  font-medium " 
+                            className="inline-flex w-full justify-center text-zinc-800 bg-transparent  font-medium " 
                             id="menu-button" aria-expanded="true" aria-haspopup="true">
                             Projects
                             <svg className="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -144,8 +142,6 @@ export default function NavbarComponent(){
                                 <Link onClick={updateNavActive} to="/react-portfolio/Paella_Bowls" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-1">Paella Bowls</Link>
                             </div>
                         </div>
-
-
                     </div>
                 {
                     navItems2.map((items,index)=>{
@@ -154,7 +150,7 @@ export default function NavbarComponent(){
                                 onClick={updateNavActive}
                                 key={index} 
                                 to={items.is_link ? 'react-portfolio/' + items.label : "/#"+ items.label} 
-                                className="block py-2 pr-4 pl-3 text-white bg-transparent rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page"
+                                className="block py-2 pr-4 pl-3 text-zinc-800 bg-transparent rounded md:bg-transparent md:p-0 dark:text-zinc-800" aria-current="page"
                             >
                                 {items.label.replaceAll("_", " ")}
                             </Link>
@@ -162,10 +158,7 @@ export default function NavbarComponent(){
                     }
                     )
                 }
-
             </ul>
-
-
 
         </div>
 

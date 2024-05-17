@@ -1,6 +1,5 @@
 import React, {useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import {FaGithub, FaLinkedinIn, FaEnvelope} from "react-icons/fa";
 import Footer from './Footer';
 export default function About(){
     const [name, setName ] = React.useState("");
@@ -73,7 +72,7 @@ export default function About(){
                     buttonText=== 'Sent'
                     ?
                     <div className="home-content flex flex-col my-7 mt-60 justify-center sm:items-center w-full  text-black  text-2xl">
-                        Your message has been sent! Thank you!
+                        Your message has been sent! 📤✉️
                     </div>
                     :
                     <>
@@ -131,11 +130,15 @@ export default function About(){
                     </>
                 }
 
-
-
-                <Footer/>
-
             </div>
+
+            <br></br>
+            <br></br>
+            <br></br>
+            
+            <Footer/>        
         </div>
     )
 }
+
+    
