@@ -13,7 +13,7 @@ export default function About(){
                 <div className="flex justify-center">
                     <div className="flex flex-col my-7 justify-center sm:items-start w-9/12  text-black">
                         <div className='flex justify-between items-start mb-10'>
-                            <p className="text-4xl font-bold text-center">👋🏼🗽 I'm Laura, a <div className="text-red-300 inline font-bold">UX Designer</div> based in <div className="text-red-300 inline font-bold">NYC</div>.</p>
+                            <p className="text-4xl font-light text-center">👋🏼🗽 I'm Laura, a <div className="text-red-300 inline font-bold">UX Designer</div> based in <div className="text-red-300 inline font-bold">NYC</div>.</p>
                         </div>
 
                         <div className="laura-pic m-auto">
@@ -30,12 +30,11 @@ export default function About(){
                         <br></br>
 
                         <div className="font-light text-2xl">
-                            <p className="font-light text-2xl">After recognizing the potential to leverage my background in studio art and</p>
-                            <p className="font-light text-2xl">computer science, I immersed myself in exploring UX Design. Discovering that</p>
-                            <p className="font-light text-2xl">UX Design aligns with my interests, I found joy in empathizing with users</p>
-                            <p className="font-light text-2xl">and crafting inclusive experiences for all. I approach design challenges with</p>
-                            <p className="font-light text-2xl">analytical and creative thinking. My commitment lies in empathizing with</p>
-                            <p className="font-light text-2xl">users' needs and promoting inclusive design principles.</p>
+                            <p className="font-light text-2xl">Realizing I could leverage my background in studio art and computer science,</p>
+                            <p className="font-light text-2xl">I delved into UX Design. This field aligns with my interests, allowing me to empathize</p>
+                            <p className="font-light text-2xl">with users and create inclusive experiences. I tackle design challenges with both</p>
+                            <p className="font-light text-2xl">analytical and creative thinking, committed to understanding user needs and</p>
+                            <p className="font-light text-2xl">promoting inclusive design principles.</p>
                         </div>
 
                         <br></br>
@@ -45,10 +44,10 @@ export default function About(){
                         <p className="font-bold text-3xl">🤔 Why <div className="text-red-300 inline font-bold">UX Design</div>?</p>
                         <br></br>
                         <div className="font-light text-2xl">
-                            <p className="font-light text-2xl">At its core, UX design is centered around helping people. My background</p>
-                            <p className="font-light text-2xl">as an Administrative Assistant honed my empathy for understanding diverse</p>
-                            <p className="font-light text-2xl">perspectives. I'm eager to delve deeper into creating a more inclusive</p>
-                            <p className="font-light text-2xl">and accessible online environment.</p>
+                            <p className="font-light text-2xl">At its core, UX design is centered around helping people. My experience as an</p>
+                            <p className="font-light text-2xl">Administrative Assistant has honed my empathy and understanding of diverse</p>
+                            <p className="font-light text-2xl">perspectives. I am excited to further explore creating a more inclusive and</p>
+                            <p className="font-light text-2xl">accessible online environment.</p>
                         </div>
 
                         <br></br>
@@ -112,11 +111,9 @@ export default function About(){
                     </div>
                 </div>
             </div>
-
             <br></br>
             <br></br>
             <br></br>
-
             <Footer/>
         </div>
     )

@@ -191,7 +191,6 @@ export default function Paella_Bowls(){
                 <div className="heading-text">
                     Starting the Design
                 </div>
-                <br></br>
                     <div className="sub-heading-text">
                         Sketches
                     </div>
@@ -207,12 +206,12 @@ export default function Paella_Bowls(){
                     <img className="m-auto mt-5"src={sketches}/>
                     <br></br>
                     <div>
-                        <div>A. Homepage</div>
-                        <div>B. Recommended Bowls Page</div>
-                        <div>C. Bowl of the Day Page</div>
-                        <div>D. Build Your Own Bowl Page</div>
-                        <div>E. Top Bowl Page</div>
-                        <div>Home v1. Second Version of Homepage</div>
+                        <div><b>A.</b>Homepage</div>
+                        <div><b>B.</b>Recommended Bowls Page</div>
+                        <div><b>C.</b>Bowl of the Day Page</div>
+                        <div><b>D.</b>Build Your Own Bowl Page</div>
+                        <div><b>D.</b>Top Bowl Page</div>
+                        <div><b>Home v1.</b>Second Version of Homepage</div>
                     </div>
                 </div>
 
