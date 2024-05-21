@@ -19,7 +19,7 @@ export default function BodyContentComponent(){
                 <ThumbnailLinkComponent
                     project_title={"Schedulete"}
                     image_path={Schedulete_Homepage}
-                    sentence="Developing a streamlined and effective communication platform for NCAA coaches."
+                    sentence="Developing a streamlined and effective communication platform for sports coaches."
                     href_link={"/react-portfolio/Schedulete"}
                     overlay_text={"View Case Study"}
                 />

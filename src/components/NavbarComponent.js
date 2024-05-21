@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link, redirect } from "react-router-dom";
-import Laura_Profile from '../img/Laura_Profile.jpg';
 import LW_Logo from '../img/LW_Logo.svg';
 
 export default function NavbarComponent(){

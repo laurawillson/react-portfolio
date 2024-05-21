@@ -30,11 +30,11 @@ export default function About(){
                         <br></br>
 
                         <div className="font-light text-2xl">
-                            <p className="font-light text-2xl">Realizing I could leverage my background in studio art and computer science,</p>
-                            <p className="font-light text-2xl">I delved into UX Design. This field aligns with my interests, allowing me to empathize</p>
-                            <p className="font-light text-2xl">with users and create inclusive experiences. I tackle design challenges with both</p>
-                            <p className="font-light text-2xl">analytical and creative thinking, committed to understanding user needs and</p>
-                            <p className="font-light text-2xl">promoting inclusive design principles.</p>
+                            <p>Recognizing the potential to merge my background in studio art and computer</p>
+                            <p>science, I ventured into UX Design. This field perfectly aligns with my passions,</p>
+                            <p>enabling me to empathize with users and craft inclusive experiences. I approach</p>
+                            <p>design challenges with a blend of analytical and creative thinking, dedicated to</p>
+                            <p>understanding user needs and advocating for inclusive design principles.</p>
                         </div>
 
                         <br></br>
@@ -44,25 +44,27 @@ export default function About(){
                         <p className="font-bold text-3xl">🤔 Why <div className="text-red-300 inline font-bold">UX Design</div>?</p>
                         <br></br>
                         <div className="font-light text-2xl">
-                            <p className="font-light text-2xl">At its core, UX design is centered around helping people. My experience as an</p>
-                            <p className="font-light text-2xl">Administrative Assistant has honed my empathy and understanding of diverse</p>
-                            <p className="font-light text-2xl">perspectives. I am excited to further explore creating a more inclusive and</p>
-                            <p className="font-light text-2xl">accessible online environment.</p>
+                            <p>At its core, UX design is about helping people. My experience as an Administrative</p>
+                            <p>Assistant has sharpened my empathy and broadened my understanding of diverse</p>
+                            <p>perspectives. I am eager to continue exploring ways to create a more inclusive and</p>
+                            <p>accessible online environment.</p>
                         </div>
 
                         <br></br>
                         <br></br>
                         <br></br>
 
-                        <p className="font-bold text-3xl">🤝🖥️ Moving forward, I aspire to <div className="text-red-300 inline font-bold">collaborate </div>with fellow</p>
-                        <p className="font-bold text-3xl">designers in crafting <div className="text-red-300 inline font-bold">intuitive digital experiences</div> that instill</p>
-                        <p className="font-bold text-3xl"><div className="text-red-300 inline font-bold">confidence </div>and <div className="text-red-300 inline font-bold">joy</div> in all users.</p>
-                    
+                        <div className="font-bold text-3xl">
+                            <p>🤝🖥️ Moving forward, I aspire to <div className="text-red-300 inline font-bold">collaborate </div>with fellow</p>
+                            <p>designers in crafting <div className="text-red-300 inline font-bold">intuitive digital experiences</div> that instill</p>
+                            <p><div className="text-red-300 inline font-bold">confidence </div>and <div className="text-red-300 inline font-bold">joy</div> in all users.</p>
+                        </div>
                         <br></br>
                         <br></br>
                         <br></br>
 
                         <div class="border-t-2 border-black">
+                        <br></br>
                         <br></br>
                         <br></br>
 

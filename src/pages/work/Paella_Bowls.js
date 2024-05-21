@@ -323,13 +323,17 @@ export default function Paella_Bowls(){
 
             <div className="sub-container redefining-the-design">
                 <div className="heading-text">
-                    Going Forward
+                    Project Reflection
                 </div>
+
+                <div className="sub-text">
+                    After thoughts
+                </div>
+
                 <br></br>
                 <div className="sub-heading-text">
-                    Takeaways
+                    Project Takeaways
                 </div>
-                <br></br>
 
                 <div className="sub-text">
                     <b>Impact:</b>
@@ -347,12 +351,10 @@ export default function Paella_Bowls(){
                 </div>
                 <br></br>
                 <br></br>
-                <br></br>
 
                 <div className="sub-heading-text">
-                    Next Steps
+                    Next Steps:
                 </div>
-                <br></br>
 
                 <div className="sub-text">
                     If I were to take this project to the next level, I would:
