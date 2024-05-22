@@ -95,6 +95,7 @@ export default function Kikori(){
                                 <li>Slack</li>
                                 <li>Zoom</li>
                                 <li>Workona</li>
+                                <li>Google Docs</li>
                                 <li>Google Drive</li>
                                 <li>Zeplin</li>
                             </ul>  
@@ -400,7 +401,7 @@ export default function Kikori(){
                         </div>
 
                         <div className="sub-text mb-10">
-                            However, Kikori's executives ultimately made the decision to move forward with implementing badges aimed at increasing user engagement and retention. While we provided our evidence-based recommendations against these specific solutions, we respect that Kikori has to balance various stakeholder needs and business goals.
+                            <p></p>However, Kikori's executives ultimately made the decision to move forward with implementing badges aimed at increasing user engagement and retention. While we provided our evidence-based recommendations against these specific solutions, we respect that Kikori has to balance various stakeholder needs and business goals.
                         </div>
                     </div>
 
@@ -411,7 +412,7 @@ export default function Kikori(){
 
                     <div className="text-container-column">
                         <div className="sub-text ">
-                            We wanted to make sure our designs are effectively reaching our project goals. Taking the low fidelity wireframes, we updated the wireframes so users are able to navigate through the pages and complete tasks we presented to them during the usability testing. These mid fidelity wireframes would help our focus on what we needed to be improved in terms of the functionality of our design.
+                            <p></p>We wanted to make sure our designs are effectively reaching our project goals. Taking the low fidelity wireframes, we updated the wireframes so users are able to navigate through the pages and complete tasks we presented to them during the usability testing. These mid fidelity wireframes would help our focus on what we needed to be improved in terms of the functionality of our design.
                         </div>
                         <br></br>
                         <img src={midfi_screenshot}/>
@@ -431,7 +432,7 @@ export default function Kikori(){
 
                 <div className="text-container-column">
                     <div className="sub-text ">
-                        The high fidelity prototype presented cleaner user flows for accessing activities. It also met user needs for quick access to activities and finding engaging activities.
+                        <p></p>The high fidelity prototype presented cleaner user flows for accessing activities. It also met user needs for quick access to activities and finding engaging activities.
                     </div>
                     <br></br>
                     <img src={hifi_screenshot}/>

@@ -84,8 +84,9 @@ export default function Schedulete(){
                                     <li>FigJam</li>
                                     <li>Slack</li>
                                     <li>Zoom</li>
-                                    <li>Whimsical</li>
+                                    <li>Google Docs</li>
                                     <li>Google Drive</li>
+                                    <li>Whimsical</li>
                                 </ul>  
                         </div>
                     </div>
@@ -382,32 +383,21 @@ export default function Schedulete(){
                     <br/>
 
                     <div className="sub-heading-text">
-                        Lo-fi Prototype
+                        Mid-fi Prototype
                     </div>
                     <div className="text-container-column">
                         <div className="sub-text mb-10">
                             <p>At this point in the process armed with research-backed solutions for Schedulete, we were excited to translate these</p>
-                            <p>insights into clickable form. We used the low-fidelity wireframe sketches to create a low-fidelity interactive prototype.</p>
-                            <p>The low-fidelity prototype established the core user flow for scheduling games and contacting other coaches, which</p>
-                            <p>enabled its use in a usability study.</p>
+                            <p>insights into clickable form. We used the low-fidelity wireframe sketches and the access we were provided to the</p>
+                            <p>Schedulete webapp to create a mid-fidelity interactive prototype. We found the process more efficient from a visual</p>
+                            <p>perspective given that we were provided access to the website via a staging website where my team and I could log in</p>
+                            <p>and play around with the functions of Schedulete's web app. The mid-fidelity prototype established the core user flow</p>
+                            <p>for scheduling games and contacting other coaches, which enabled its use in a usability study.</p>
                         </div>
                         <br/>
-                        <a className="text-blue-500 text-center" href="https://www.figma.com/proto/zGYqttjcWnwPUg2lET3tPt/Paella-Bowls-V2-(Wireframes%2C-Mockups%2C-and-Prototype)?type=design&node-id=1-2&t=HhXMyGl9bC5bJhBA-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design" target='_blank'>View Schedulete's low-fidelity prototype</a>
+                        <a className="text-blue-500 text-center" href="https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-15790&t=4StZ2D5045tXhivT-1&scaling=contain&page-id=0%3A1" target='_blank'>View mid-fidelity prototype</a>
                         <br/>
                         <br/>
-                    </div>
-                    
-                    <div className="sub-heading-text">
-                        Hi-fi Prototype
-                    </div>
-                    <div className="text-container-column">
-                        <div className="sub-text mb-10">
-                            <p>The high-fidelity prototype provided a polished version of the core user flow, including creating a new game, responding</p>
-                            <p>to invitations, searching for games, and editing game details, making it suitable for a usability study.</p>
-                            <br/>
-                        </div>
-                        <br/>
-                        <a className="text-blue-500 text-center" href="https://www.figma.com/proto/zGYqttjcWnwPUg2lET3tPt/Paella-Bowls-V2-(Wireframes%2C-Mockups%2C-and-Prototype)?type=design&node-id=1-2&t=HhXMyGl9bC5bJhBA-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design" target='_blank'>View Schedulete's hi-fidelity prototype</a>
                     </div>
                 </div>
 
@@ -430,29 +420,43 @@ export default function Schedulete(){
                     <div className="text-container-column">
                         <div className="sub-text">
                             <p>We prepared a usability test plan to help us stay on track and determine objectives that made sense for our design.</p>
-                            <p>Our main goal was to determine if users are able to navigate through the flows with ease and gather their frustrations and feedback.</p>
+                            <p>Our main goal was to determine if users are able to navigate through the flows with ease and gather their frustrations</p>
+                            <p>and feedback.</p>
                             <br/>
-                            <p>We observed <b>five</b>coaches as they interacted with the hi prototype, assessing how they create a game, respond to an</p>
+                            <p>We observed <b>five</b>coaches as they interacted with the mid-fi prototype, assessing how they create a game, respond to an</p>
                             <p>invitation, search for a game, and edit game details.</p>
                             <br/>
                             <p>Overall, we received positive feedback regarding the features and design of Schedulete, including:</p>
                             <p><b>1.</b>Users find it easy and simple to create and post open games</p>
                             <p><b>2.</b>Users appreciate the ability to see other teams' open games and browse for away games</p>
-                            <p><b>3.</b>Schedulete is helpful for finding games outside of existing connections</p>
+                            <p><b>3.</b>Users find Schedulete helpful for finding games outside of existing connections</p>
                             <p><b>4.</b>Users enjoy the ability to view the calendar month to month and the social aspect of experiencing content together</p>
                             <br/>
-                            <p>Below are actionable points that guided us through my first round of iterations:</p>
-                            <p><b>1.</b>Users want the ability to search for open games by filtering based on specific criteria like division, game type, and day of the week.</p>
-                            <p><b>2.</b>Users would like to see additional features such as a calendar view and the ability to schedule non-conference games directly through Schedulete.</p>
+                            <p>Here are the key action points that guided us in updating the prototype:</p>
+                            <p><b>1.</b>Users want to filter open games by criteria such as division, game type, and day of the week.</p>
+                            <p><b>2.</b>Users want additional features like a calendar view and the ability to schedule non-conference games.</p>
                         </div>
                     </div>
                 </div>
 
                 <div className="sub-container Project Reflection border-t-2 border-black">
                     <div className="heading-text">
-                        <b>Final Design</b> 
+                        <br></br>
+                        Final Design 
                     </div>
+                    <br></br>
 
+                    <div className="sub-heading-text">
+                        Hi-fi Prototype
+                    </div>
+                    <div className="text-container-column">
+                        <div className="sub-text mb-10">
+                            <p>Based on usability study feedback, we created a high-fidelity prototype that refined the core user flow, including game</p>
+                            <p>creation, invitation responses, game searches, and game detail edits, ensuring user-friendliness.</p>
+                        </div>
+                        <br/>
+                        <a className="text-blue-500 text-center" href="https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-19148&t=sNHnyQJRzTgJ5KtI-1&scaling=contain&page-id=0%3A1https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-15790&t=du22qOI5SoPBVBFD-1&scaling=contain&page-id=0%3A1https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-15790&t=O86puJKeo4H3eNC7-1&scaling=contain&page-id=0%3A1https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-15790&t=z1ukUdOYXB9FN0Bl-1&scaling=contain&page-id=0%3A1https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-15790&t=Mu5h3cvku9qVH3cZ-1&scaling=contain&page-id=0%3A1https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-15790&t=Mu5h3cvku9qVH3cZ-1&scaling=contain&page-id=0%3A1" target='_blank'>View prototype</a>
+                    </div>
 
                 </div>
 
@@ -470,7 +474,9 @@ export default function Schedulete(){
                         <div className="sub-text mb-10">
                             <p>I knew going into this project that it would be a challenge. What features are most important? Given the coaches not</p>
                             <p>having enough time to respond to other coaches, what are some ways the web app can provide relief? I found myself</p>
-                            <p>truly enjoying the process of designing and strategizing flows and user interactions.</p>
+                            <p>truly enjoying the process of designing and strategizing flows and user interactions. Working on Schedulete was a</p>
+                            <p>rewarding experience. Enhancing the existing platform with my team allowed us to create the best possible MVP, and we</p>
+                            <p>are pleased with the results.</p>
                         </div>
                     </div>
 
@@ -479,6 +485,7 @@ export default function Schedulete(){
                     </div>
                     <div className="text-container-column">
                         <div className="sub-text mb-10">
+                            <p>If I had more time to work on this project, I would make the following changes:</p>
                             <p><b>1.</b>Craft a focused project plan, prioritizing MVP needs and managing backlogs</p>
                             <p><b>2.</b>Conduct more user interviews to determine any new areas of need</p>
                             <p><b>3.</b>Make more improvements to the design of the app</p>
@@ -489,11 +496,18 @@ export default function Schedulete(){
                         <p>What I Learned:</p>
                     </div>
                     <div className="text-container-column">
-                        <div className="sub-text mb-10">
+                        <div className="sub-text">
                             <p>Continuous improvement in coach-to-coach communication and accessing available games is crucial. Usability studies</p>
                             <p>and user feedback play a significant role in shaping each iteration of the  app's design.</p>
                         </div>
                     </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+
+                    <div className="sub-heading-text text-center">
+                        <p>Thank you for reading! 😊</p>
+                    </div>  
                 </div>
             </div>
             <br/>
