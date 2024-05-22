@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.54a3c625.css",
-    "main.js": "/react-portfolio/static/js/main.f914d68e.js",
+    "main.js": "/react-portfolio/static/js/main.23ace42b.js",
     "static/js/787.b554861c.chunk.js": "/react-portfolio/static/js/787.b554861c.chunk.js",
     "static/media/Affinity_Map.png": "/react-portfolio/static/media/Affinity_Map.eaf8fde2da03088ed449.png",
     "static/media/affinity_map.png": "/react-portfolio/static/media/affinity_map.0d3b083aa4c173f0f4f8.png",
@@ -25,15 +25,17 @@
     "static/media/Alex_User_Persona.png": "/react-portfolio/static/media/Alex_User_Persona.001548dadf685bc67f02.png",
     "static/media/Persona_2_Trish.png": "/react-portfolio/static/media/Persona_2_Trish.e09b789ac2bfb4a57a84.png",
     "static/media/Kikori_Homepage.png": "/react-portfolio/static/media/Kikori_Homepage.25597a16c2d71126b62e.png",
+    "static/media/User_Interview_James.png": "/react-portfolio/static/media/User_Interview_James.f10cebc298e56513f55a.png",
     "static/media/User_Journey_Map.png": "/react-portfolio/static/media/User_Journey_Map.9eadbb4d43cde47749fd.png",
     "static/media/Uncie_and_I.png": "/react-portfolio/static/media/Uncie_and_I.0e73674e32959897c615.png",
     "static/media/user_persona_maryann_green.png": "/react-portfolio/static/media/user_persona_maryann_green.a61d5d3196ea9f4ffac2.png",
     "static/media/Laura_Taking_Pics.jpg": "/react-portfolio/static/media/Laura_Taking_Pics.8c7d6d5e13d997ef26b4.jpg",
     "static/media/hifi_screenshot.png": "/react-portfolio/static/media/hifi_screenshot.ed2c98fbbca682072bc1.png",
     "static/media/nine_grid_image.jpg": "/react-portfolio/static/media/nine_grid_image.f8136064bdef678d83e1.jpg",
-    "static/media/zoom_call_image.png": "/react-portfolio/static/media/zoom_call_image.e501044d9410800ec8b7.png",
+    "static/media/zoom_call_image.png": "/react-portfolio/static/media/zoom_call_image.2db604c042ccb990dedc.png",
     "static/media/lofi_screenshot.png": "/react-portfolio/static/media/lofi_screenshot.ca3e16b0f5f7e071be01.png",
     "static/media/Paella_Bowls_Homepage.png": "/react-portfolio/static/media/Paella_Bowls_Homepage.236f67bc80c34dc3484a.png",
+    "static/media/Schedulete_Laptop.png": "/react-portfolio/static/media/Schedulete_Laptop.abc36a3925187e9b08d4.png",
     "static/media/mockups1.png": "/react-portfolio/static/media/mockups1.916781bccaa1bb892299.png",
     "static/media/key_mockups.png": "/react-portfolio/static/media/key_mockups.922800bcf37e61001402.png",
     "static/media/journeyboard_recommendations.png": "/react-portfolio/static/media/journeyboard_recommendations.4441a9cb2bb2dbc78fea.png",
@@ -57,11 +59,11 @@
     "static/media/LW_Logo.svg": "/react-portfolio/static/media/LW_Logo.60185056e222e8d9bdd218e99bb8193e.svg",
     "index.html": "/react-portfolio/index.html",
     "main.54a3c625.css.map": "/react-portfolio/static/css/main.54a3c625.css.map",
-    "main.f914d68e.js.map": "/react-portfolio/static/js/main.f914d68e.js.map",
+    "main.23ace42b.js.map": "/react-portfolio/static/js/main.23ace42b.js.map",
     "787.b554861c.chunk.js.map": "/react-portfolio/static/js/787.b554861c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54a3c625.css",
-    "static/js/main.f914d68e.js"
+    "static/js/main.23ace42b.js"
   ]
 }
