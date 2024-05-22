@@ -1,9 +1,10 @@
 import '../../scss/work.scss';
 import '../../scss/Schedulete.scss';
-import Schedulete_Homepage from '../schedulete_imgs/Schedulete_Homepage.png';
+import Schedulete_Laptop from '../schedulete_imgs/Schedulete_Laptop.png';
 import persona from '../schedulete_imgs/Alex_User_Persona.png';
 import Competitive_Comparative_Analysis from '../schedulete_imgs/Competitive_Comparative_Analysis.png';
 import Affinity_Map from '../schedulete_imgs/Affinity_Map.png'
+import User_Interview_James from '../schedulete_imgs/User_Interview_James.png'
 import Create_New_Game from '../schedulete_imgs/Create_New_Game_Sketches.png'
 import Respond_to_an_Invitation from '../schedulete_imgs/Respond_to_an_Invitation.png'
 import Search_for_a_Game from '../schedulete_imgs/Search_for_a_Game.png'
@@ -22,18 +23,18 @@ export default function Schedulete(){
         <div className="work-container">
             <div className='project-title'> {project_title} </div>
             <div className='schedulete-homepage-container m-auto'>
-                <br></br>
-                <img className="schedulete_homepage w-full object-contain max-h-[500px]" src={Schedulete_Homepage}/>
+                <br/>
+                <img className="schedulete_laptop w-full object-contain max-h-[500px]" src={Schedulete_Laptop}/>
             </div>
-            <br></br>
-            <br></br>
+            <br/>
+            <br/>
 
             <div className='m-auto max-w-[60rem]'>
                 <div className="sub-container overview">
                     <div className="heading-text">
                         Overview
                     </div>
-                    <br></br>
+                    <br/>
 
                     <div className="sub-heading-text">
                         About Schedulete
@@ -45,19 +46,19 @@ export default function Schedulete(){
                             <p>them to dedicate more time to their teams and less to administrative tasks.</p>
                         </div>
                     </div>
-                    <br></br>
-                    <br></br>
+                    <br/>
+                    <br/>
 
                     <div className="sub-heading-text">
                         Project Details
                     </div>
 
                     <div className='flex'>
-                        <div class="sub-text mr-9">
+                        <div className="sub-text mr-9">
                             <p><b>Role:</b>UX Designer</p>
                         </div>
 
-                        <div class="sub-text mr-9">
+                        <div className="sub-text mr-9">
                             <p><b>Responsibilities:</b></p>
                                 <ul>
                                     <li>Synthesizing user feedback</li>
@@ -81,14 +82,15 @@ export default function Schedulete(){
                                 <ul>
                                     <li>Figma</li>
                                     <li>FigJam</li>
+                                    <li>Slack</li>
                                     <li>Zoom</li>
                                     <li>Whimsical</li>
                                     <li>Google Drive</li>
                                 </ul>  
                         </div>
                     </div>
-                    <br></br>
-                    <br></br>
+                    <br/>
+                    <br/>
 
                     <div className="sub-heading-text">
                         The Challenge
@@ -99,8 +101,8 @@ export default function Schedulete(){
                             <p>Empower coaches with an intuitive workflow that promotes efficient in-app communication and progress tracking.</p>
                         </div>
                     </div>
-                    <br></br>
-                    <br></br>
+                    <br/>
+                    <br/>
 
                     <div className="sub-heading-text">
                         Goals
@@ -109,14 +111,14 @@ export default function Schedulete(){
                         <div className="sub-text">
                             <p>To gain deeper insights into Schedulete's background, market positioning, and user demographics, my team and I</p>
                             <p>started with the following objectives:</p>
-                            <br></br>
+                            <br/>
                             <p><b>1.</b>Design a user-friendly coach communication experience</p>
                             <p><b>2.</b>Craft an intuitive interface aligned with Schedulete's brand and UI standards</p>
                             <p><b>3.</b>Enhance engagement by streamlining game invitations</p>
                         </div>
                     </div>
-                    <br></br>
-                    <br></br>
+                    <br/>
+                    <br/>
 
                     <div className="sub-heading-text">
                         Process
@@ -126,28 +128,28 @@ export default function Schedulete(){
                             <p>We began by conducting research to understand existing challenges. In the following phases, we developed a user</p>
                             <p>persona, used affinity mapping to identify key priorities, crafted a task flow, designed a site map, created a user</p>
                             <p>journey map, and built prototypes to validate the redesign.</p>
-                            <br></br>
+                            <br/>
 
                             <p>Now, let's delve deeper into each step.</p>
-                            <br></br>
+                            <br/>
 
                             <img className="Design_Process" src={Design_Process}/>
                         </div>
                     </div>
                 </div>
 
-                <div class="sub-container research border-t-2 border-black">
+                <div className="sub-container research border-t-2 border-black">
                     <div className="sub-container research">
                         <div className="heading-text">
-                            <br></br>
+                            <br/>
                             Research
                         </div>
                         
                         <div className="sub-text">
                             Understanding the user and situation
                         </div>
-                        <br></br>
-                        <br></br>
+                        <br/>
+                        <br/>
 
                         <div className="sub-heading-text">
                             Competitive and Comparative Analysis
@@ -158,10 +160,10 @@ export default function Schedulete(){
                             <p>enabled us to identify improvement opportunities, differentiate our offerings, and make informed strategic decisions.</p>
                             <p>Additionally, it kept us aware of industry trends and best practices, ensuring Schedulete remains competitive and meets</p>
                             <p>user expectations.</p>
-                            <br></br>
+                            <br/>
                             <img className="Competitive_Comparative_Analysis w-full" src={Competitive_Comparative_Analysis}/>
                         </div>
-                        <br></br>
+                        <br/>
 
 
                         <div className="sub-text">
@@ -170,8 +172,8 @@ export default function Schedulete(){
                             <p><b>2.</b>Allow users to share schedules with others</p>
                             <p><b>3.</b>Do not provide visibility into other teams' schedules</p>
                         </div>
-                        <br></br>
-                        <br></br>
+                        <br/>
+                        <br/>
 
                         <div className="sub-heading-text">
                             User Persona
@@ -179,14 +181,14 @@ export default function Schedulete(){
                         <div className="sub-text">
                             <p>To ensure that our future decisions in the process remain focused on the user, we aimed to establish a comprehensive</p>
                             <p>understanding of Schedulete's user base. So, we created a user persona to represent who we will be designing for.</p>
-                            <br></br>
+                            <br/>
                             <p>Meet Alex:</p>
-                            <br></br>
+                            <br/>
                             <img className="persona w-full" src={persona}/>
                         </div>
-                        <br></br>
-                        <br></br>
-                        <br></br>
+                        <br/>
+                        <br/>
+                        <br/>
 
                         <div className="sub-heading-text">
                             User Interviews
@@ -195,24 +197,28 @@ export default function Schedulete(){
                         <div className="sub-text">
                             <p>Next, we aimed to validate the persona by conducting user interviews over Zoom. Throughout these interviews,</p>
                             <p>we utilized open-ended questions to glean insights into their experiences, uncover needs, and pinpoint pain points.</p>
-                            <br></br>
-                            <p>We conducted interviews with <b>four participants,</b>about <b>20-30 minutes</b>each. These participants included:</p>
+                            <br/>
                         </div>
-
+                        
                         <div className="sub-text">
+                            <p>We conducted interviews with <b>four participants,</b>about <b>20-30 minutes</b>each. These participants included:</p>
                             <p><b>1.</b>Coaches who use Schedulete on a weekly basis</p>
                             <p><b>2.</b>Coaches who recently started using Schedulete</p>
                             <p><b>3.</b>Coaches who use the app a few times during the month</p>
                         </div>
+                        <br/>
+
+                        <img className="w-full"src={User_Interview_James}/>
+                        <br></br>
                         <br></br>
 
                         <div className="sub-text">
                             <p>Here are some insights from our interviewees:</p>
-                            <p>" " - B</p>
-                            <p>" " - J</p>
-                            <p>" " - B</p>
+                            <p>"I like to figure out things that I don’t already know." - B</p>
+                            <p>"I like the function of creating a game. It's easy and simple." - J</p>
+                            <p>"I like that Schedulete is not like a lot of tools out there. I like that Schedulete supports the NCAA." - B</p>
                         </div>
-                        <br></br>
+                        <br/>
 
                         <div className="sub-text">
                             <p>After conducting these one-on-one sessions with the participants, our goal was to synthesize the new information to</p>
@@ -223,15 +229,15 @@ export default function Schedulete(){
 
                 <div className="sub-container synthesize border-t-2 border-black">
                     <div className="heading-text">
-                    <br></br>
+                    <br/>
                         Synthesize
                     </div>
 
                     <div className="sub-text">
                         Integrating information into a unified concept
                     </div>
-                    <br></br>
-                    <br></br>
+                    <br/>
+                    <br/>
 
                     <div className="sub-heading-text">
                         Affinity Map
@@ -242,11 +248,11 @@ export default function Schedulete(){
                             <p>Our analysis revealed a desire among users for new features and enhancements to improve app usability. This enabled</p>
                             <p>us to offer actionable insights for focused design enhancements,  such as incorporating the option to view other coaches'</p>
                             <p>contact information on the main homepage.</p>
-                            <br></br>
+                            <br/>
                             <img className="w-full" src={Affinity_Map}/>
                         </div>
-                        <br></br>
-                        <br></br>
+                        <br/>
+                        <br/>
 
                         <div className="sub-text">
                             <p><b>Key Takeaways</b></p>
@@ -260,15 +266,15 @@ export default function Schedulete(){
 
                 <div className="sub-container ideate border-t-2 border-black">
                     <div className="heading-text">
-                        <br></br>
+                        <br/>
                         Ideate
                     </div>
 
                     <div className="sub-text">
                         Challenge assumptions and create ideas
                     </div>
-                    <br></br>
-                    <br></br>
+                    <br/>
+                    <br/>
 
                     <div className="sub-container sketches">
                         <div className="sub-heading-text">
@@ -279,38 +285,38 @@ export default function Schedulete(){
                             <p>changes. Throughout the redesign, we focused on our target audience, UX goals, and the company mission. After several</p>
                             <p>iterations, we developed effective solutions.</p>
                         </div>
-                        <br></br>
+                        <br/>
 
                         <div>
                             <img src={Create_New_Game}/>
-                            <br></br>
+                            <br/>
                             <p>These sketches illustrate different approaches to<b> create a game.</b></p>
                         </div>
-                        <br></br>
-                        <br></br>
-                        <br></br>
+                        <br/>
+                        <br/>
+                        <br/>
 
                         <div>
                             <img src={Respond_to_an_Invitation}/>
-                            <br></br>
+                            <br/>
                             <p>These sketches illustrate different approaches to<b> respond to an invitation.</b></p>
                         </div>
-                        <br></br>
-                        <br></br>
-                        <br></br>
+                        <br/>
+                        <br/>
+                        <br/>
 
                         <div>
                             <img src={Search_for_a_Game}/>
-                            <br></br>
+                            <br/>
                             <p>These sketches illustrate different approaches to<b> search for a game.</b></p>
                         </div>
-                        <br></br>
-                        <br></br>
-                        <br></br>
+                        <br/>
+                        <br/>
+                        <br/>
 
                         <div>
                             <img src={Edit_Game_Details}/>
-                            <br></br>
+                            <br/>
                             <p>These sketches illustrate different approaches to<b> edit game details.</b></p>
                         </div>
                     </div>
@@ -322,11 +328,11 @@ export default function Schedulete(){
                         <div className="sub-text">
                             <p>We then carried out a card sorting exercise to establish the fundamental information architecture for the different pages</p>
                             <p>and navigation pathways that a user might take in Schedulete.</p>
-                            <br></br>
+                            <br/>
                             <img className="w-full" src={Site_Map}/>
                         </div>
                     </div>
-                    <br></br>
+                    <br/>
 
                     <div className="sub-container user task flow">
                         <div className="sub-heading-text">
@@ -337,11 +343,11 @@ export default function Schedulete(){
                             <p>helped us identify potential obstacles and inefficiencies in communication, creating a game, and searching for a game,</p>
                             <p>allowing for targeted improvements to enhance the user experience. By understanding the user's journey, we were able</p>
                             <p>to create more intuitive and seamless interactions.</p>
-                            <br></br>
+                            <br/>
                             <img className="w-full" src={User_Task_Flow}/>
                         </div>
                     </div>
-                    <br></br>
+                    <br/>
 
                     <div className="sub-container user journey map">
                         <div className="sub-heading-text">
@@ -352,9 +358,9 @@ export default function Schedulete(){
                             <p>throughout the app from start to finish. We wanted to better empathize with the scenarios users may be in, different</p>
                             <p>decisions they would be making, and also the different paths they might take. To do this, we created a user journey map,</p>
                             <p>which helped us to better understand coaches' journey when they access games on the Schedulete platform.</p>
-                            <br></br>
+                            <br/>
                             <img className="w-full" src={User_Journey_Map}/>
-                            <br></br>          
+                            <br/>          
                             <p>From this journey map, we discovered that most users struggle with changing game details on Schedulete. They have</p>
                             <p>difficulties confirming alternative time proposals, finding different time options, understanding game status indicators,</p>
                             <p>and interpreting email notifications. Users met their unmet needs with workarounds, such as checking the calendar or</p>
@@ -365,15 +371,15 @@ export default function Schedulete(){
 
                 <div className="sub-container Prototype border-t-2 border-black">
                     <div className="heading-text">
-                        <br></br>
+                        <br/>
                         Prototype
                     </div>
 
                     <div className="sub-text">
                         Create solutions
                     </div>
-                    <br></br>
-                    <br></br>
+                    <br/>
+                    <br/>
 
                     <div className="sub-heading-text">
                         Lo-fi Prototype
@@ -385,10 +391,10 @@ export default function Schedulete(){
                             <p>The low-fidelity prototype established the core user flow for scheduling games and contacting other coaches, which</p>
                             <p>enabled its use in a usability study.</p>
                         </div>
-                        <br></br>
+                        <br/>
                         <a className="text-blue-500 text-center" href="https://www.figma.com/proto/zGYqttjcWnwPUg2lET3tPt/Paella-Bowls-V2-(Wireframes%2C-Mockups%2C-and-Prototype)?type=design&node-id=1-2&t=HhXMyGl9bC5bJhBA-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design" target='_blank'>View Schedulete's low-fidelity prototype</a>
-                        <br></br>
-                        <br></br>
+                        <br/>
+                        <br/>
                     </div>
                     
                     <div className="sub-heading-text">
@@ -398,24 +404,24 @@ export default function Schedulete(){
                         <div className="sub-text mb-10">
                             <p>The high-fidelity prototype provided a polished version of the core user flow, including creating a new game, responding</p>
                             <p>to invitations, searching for games, and editing game details, making it suitable for a usability study.</p>
-                            <br></br>
+                            <br/>
                         </div>
-                        <br></br>
+                        <br/>
                         <a className="text-blue-500 text-center" href="https://www.figma.com/proto/zGYqttjcWnwPUg2lET3tPt/Paella-Bowls-V2-(Wireframes%2C-Mockups%2C-and-Prototype)?type=design&node-id=1-2&t=HhXMyGl9bC5bJhBA-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design" target='_blank'>View Schedulete's hi-fidelity prototype</a>
                     </div>
                 </div>
 
                 <div className="sub-container Test border-t-2 border-black">
                     <div className="heading-text">
-                        <br></br>
+                        <br/>
                         Test
                     </div>
                     
                     <div className="sub-text">
                         Exploring the prototype thoroughly
                     </div>
-                    <br></br>
-                    <br></br>
+                    <br/>
+                    <br/>
 
                     <div className="sub-heading-text">
                         Usability Testing
@@ -425,16 +431,16 @@ export default function Schedulete(){
                         <div className="sub-text">
                             <p>We prepared a usability test plan to help us stay on track and determine objectives that made sense for our design.</p>
                             <p>Our main goal was to determine if users are able to navigate through the flows with ease and gather their frustrations and feedback.</p>
-                            <br></br>
+                            <br/>
                             <p>We observed <b>five</b>coaches as they interacted with the hi prototype, assessing how they create a game, respond to an</p>
                             <p>invitation, search for a game, and edit game details.</p>
-                            <br></br>
+                            <br/>
                             <p>Overall, we received positive feedback regarding the features and design of Schedulete, including:</p>
                             <p><b>1.</b>Users find it easy and simple to create and post open games</p>
                             <p><b>2.</b>Users appreciate the ability to see other teams' open games and browse for away games</p>
                             <p><b>3.</b>Schedulete is helpful for finding games outside of existing connections</p>
                             <p><b>4.</b>Users enjoy the ability to view the calendar month to month and the social aspect of experiencing content together</p>
-                            <br></br>
+                            <br/>
                             <p>Below are actionable points that guided us through my first round of iterations:</p>
                             <p><b>1.</b>Users want the ability to search for open games by filtering based on specific criteria like division, game type, and day of the week.</p>
                             <p><b>2.</b>Users would like to see additional features such as a calendar view and the ability to schedule non-conference games directly through Schedulete.</p>
@@ -444,19 +450,18 @@ export default function Schedulete(){
 
                 <div className="sub-container Project Reflection border-t-2 border-black">
                     <div className="heading-text">
-                        <br>Final Design</br> 
+                        <b>Final Design</b> 
                     </div>
 
-                    
 
                 </div>
 
                 <div className="sub-container Project Reflection border-t-2 border-black">
                     <div className="heading-text">
-                        <br></br>
+                        <br/>
                         Project Reflection
                     </div>
-                    <br></br>
+                    <br/>
                     
                     <div className="sub-heading-text">
                         <p>Project Takeaways</p>
@@ -491,9 +496,9 @@ export default function Schedulete(){
                     </div>
                 </div>
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
+            <br/>
+            <br/>
+            <br/>
 
             <Footer/>
         </div>

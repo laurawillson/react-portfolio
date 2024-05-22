@@ -92,6 +92,7 @@ export default function Kikori(){
                             <ul>
                                 <li>Figma</li>
                                 <li>FigJam</li>
+                                <li>Slack</li>
                                 <li>Zoom</li>
                                 <li>Workona</li>
                                 <li>Google Drive</li>
@@ -377,15 +378,20 @@ export default function Kikori(){
                         <br></br>
                         <a className="text-blue-500 text-center" href= "https://www.figma.com/proto/wqnh9iMroilBhnwUmvGBAY/Kikori-User-Flow-Wireframes?type=design&node-id=1-2&t=K48ixAtuUISUsrND-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design" target='_blank'>View Kikori's low-fidelity prototype</a>
                     </div>
+                    <br></br>
 
                     <div className="heading-text">
                         Design Direction
                     </div>
 
                     <div className="text-container-column">
-                        <div className="sub-text mb-10">
-                            Our research led our design in the direction to simplify the user experience and significantly reduce the cognitive load on educators using Kikori's platform. We recommended implementing intuitive navigation and a streamlined activity library to decrease the overwhelm of endless content options. Educators desired more robust tools to customize activities to their classroom contexts as well.
+                        <div className="sub-text">
+                            <p>Our research led our design in the direction to simplify the user experience and significantly reduce the cognitive load on</p>
+                            <p>educators using Kikori's platform. We recommended implementing intuitive navigation and a streamlined activity library to</p>
+                            <p>decrease the overwhelm of endless content options. Educators desired more robust tools to customize activities to their</p>
+                            <p>classroom contexts as well.</p>
                         </div>
+                        <br></br>
 
                         <div className="sub-text mb-10">
                             <p>Throughout this project, our team maintained open communication with Kikori to keep them apprised of key user insights</p>
@@ -436,109 +442,139 @@ export default function Kikori(){
                 </div>
                 <br></br>
                 <br></br>
-
-                <div className="sub-heading-text">
-                    Understanding What Works and What Doesn't
                 </div>
 
-                <div className="text-container-column">
-                    <div className="sub-text">
-                        <p>High-fidelity prototypes allowed us to evaluate key user tasks identified during interviews. Although the tasks were relatively</p>
-                        <p> straightforward, the UI evaluation revealed that some elements needed reassessment. Many participants expressed</p>
-                        <p> confusion about the homepage's information overload during testing.</p>
-                    </div>
-                </div>
-                <br></br>
-                <br></br>
-
-                <div className='text-container-row mt-10 mockups1'>
-                    <div>
-                        <div className="sub-heading-text">
-                            Homepage Mockups
+                <div className="sub-container Test border-t-2 border-black">
+                    <div className="sub-container usability-testing">
+                        <div className="heading-text">
+                            Test
                         </div>
-                        <p><b>1.</b>Homepage low-fidelity wireframe <b>before</b>usability study</p>
+                        <div className="sub-text">
+                            Exploring wireframes thoroughly
+                        </div>
                         <br></br>
-                        <p><b>2.</b>Homepage low-fidelity wireframe <b>after</b>usability study</p>
-                    </div>
+                        <br></br>
 
-                        <div className="image-w-30">
-                            <img src={mockups1}/>
+                        <div className="sub-heading-text">
+                            Usability Testing
                         </div>
-                    </div>
-                    <br></br>
-                    <br></br>
 
-                    <div className='text-container-row mt-20 activites'>
-                        <div>
-                            <div className="sub-heading-text">
-                                Activities
+                        <div className="text-container-column">
+                            <div className="sub-text">
+                                <p>We observed <b>five</b>educators as they interacted with the hi prototype, assessing how they discover, search for, and access activities within the Kikori platform.</p>
                             </div>
-                            <p><b>1.</b>Deleted text above the carousel to reduce cognitive load</p>
-                            <br></br>
-                            <p><b>2.</b>Shortened and repositioned the search bar above the carousel</p>
-                            <br></br>
-                            <p><b>3.</b>The filter button remained next to the search bar, above the carousel</p>
-                        </div>
 
-                        <div className="image-w-30">
-                            <img src={activities}/>
-                        </div>
-                    </div>
-                    <br></br>
-                    <br></br>
-
-                    <div className='text-container-row mt-20 activites'>
-                        <div>
-                            <div className="sub-heading-text">
-                                Browse by Category
+                            <div className="sub-text mt-10">
+                                Those five participants expressed that they:
+                                    <p><b>1.</b>Need less information on the screen</p>
+                                    <p><b>2.</b>Were able to navigate the web app with ease once overcoming challenges with their own tech issues</p>
+                                    <p><b>3.</b>Use Kikori for about five minutes, select the desired activity, and then exit the platform to use the activity in the classroom</p>
                             </div>
+                        </div>
+                        <br></br>
+                        <br></br>
+
+                        <div className="sub-heading-text">
+                            Understanding What Works and What Doesn't
+                        </div>
+
+                        <div className="text-container-column">
+                            <div className="sub-text">
+                                <p>High-fidelity prototypes allowed us to evaluate key user tasks identified during interviews. Although the tasks were relatively</p>
+                                <p> straightforward, the UI evaluation revealed that some elements needed reassessment. Many participants expressed</p>
+                                <p> confusion about the homepage's information overload during testing.</p>
+                            </div>
+                        </div>
+                        <br></br>
+                        <br></br>
+
+                        <div className='text-container-row mt-10 mockups1'>
+                            <div>
+                                <div className="sub-heading-text">
+                                    Homepage Mockups
+                                </div>
+                                <p><b>1.</b>Homepage low-fidelity wireframe <b>before</b>usability study</p>
+                                <br></br>
+                                <p><b>2.</b>Homepage low-fidelity wireframe <b>after</b>usability study</p>
+                            </div>
+                            <div className="image-w-30">
+                                <img src={mockups1}/>
+                            </div>
+                        </div>
+                        <br></br>
+                        <br></br>
+
+                        <div className='text-container-row mt-20 activites'>
+                            <div>
+                                <div className="sub-heading-text">
+                                    Activities
+                                </div>
+                                <p><b>1.</b>Deleted text above the carousel to reduce cognitive load</p>
+                                <br></br>
+                                <p><b>2.</b>Shortened and repositioned the search bar above the carousel</p>
+                                <br></br>
+                                <p><b>3.</b>The filter button remained next to the search bar, above the carousel</p>
+                            </div>
+
+                            <div className="image-w-30">
+                                <img src={activities}/>
+                            </div>
+                        </div>
+                        <br></br>
+                        <br></br>
+
+                        <div className='text-container-row mt-20 activites'>
+                            <div>
+                                <div className="sub-heading-text">
+                                    Browse by Category
+                                </div>
                         
-                            <p><b>1.</b>Shifted 'Browse by Category' up for easier access to activities</p>
-                            <br></br>
-                            <p><b>2.</b>Replaced 'Category' with icons for streamlined activity navigation</p>
-                        </div>
-
-                        <div className="image-w-30">
-                            <img src={browse_by_category}/>
-                        </div>
-                    </div>
-                    <br></br>
-                    <br></br>
-
-                    <div className='text-container-row mt-20 activites'>
-                        <div>
-                            <div className="sub-heading-text">
-                                After-activity Mockups
+                                <p><b>1.</b>Shifted 'Browse by Category' up for easier access to activities</p>
+                                <br></br>
+                                <p><b>2.</b>Replaced 'Category' with icons for streamlined activity navigation</p>
                             </div>
-                            <p><b>1.</b>After-activity survey page <b>before</b>usability study</p>
-                            <br></br>
-                            <p><b>2.</b>After-activity survey page <b>after</b>usability study</p>
-                        </div>
 
-                        <div className="image-w-30">
-                            <img src={mockups2}/>
-                        </div>
-                    </div>
-                    <br></br>
-                    <br></br>
-
-                    <div className='text-container-row mt-20 activites'>
-                        <div>
-                            <div className="sub-heading-text">
-                                Rating
+                            <div className="image-w-30">
+                                <img src={browse_by_category}/>
                             </div>
+                        </div>
+                        <br></br>
+                        <br></br>
+
+                        <div className='text-container-row mt-20 activites'>
+                            <div>
+                                <div className="sub-heading-text">
+                                    After-activity Mockups
+                                </div>
+                                <p><b>1.</b>After-activity survey page <b>before</b>usability study</p>
+                                <br></br>
+                                <p><b>2.</b>After-activity survey page <b>after</b>usability study</p>
+                            </div>
+
+                            <div className="image-w-30">
+                                <img src={mockups2}/>
+                            </div>
+                        </div>
+                        <br></br>
+                        <br></br>
+
+                        <div className='text-container-row mt-20 activites'>
+                            <div>
+                                <div className="sub-heading-text">
+                                    Rating
+                                </div>
                                 <p><b>1.</b>Split question into two to better understand educators' experiences</p>
                                 <br></br>
                                 <p><b>2.</b>‘Easy,’ ‘Medium,’ and ‘Difficult’ responses were replaced</p>
                                 <p>with a more familiar star rating system.</p>
-                        </div>
+                            </div>
 
-                        <div className="image-w-30">
-                            <img src={rating}/>
+                            <div className="image-w-30">
+                                <img src={rating}/>
+                            </div>
                         </div>
-                    </div>
-                    <br></br>
-                    <br></br>
+                        <br></br>
+                        <br></br>
 
                     <div className='text-container-row mt-20 activites'>
                         <div>
@@ -593,13 +629,13 @@ export default function Kikori(){
                             <div className="sub-heading-text">
                                 Journeyboard
                             </div>
-                            <p><b>1.</b>It was initially termed as the "Leaderboard," but was later</p>
-                            <p>renamed to "Journeyboard" to encourage collaboration</p>
-                            <p>among students rather than fostering competition</p>
-                            <br></br>
-                            <p><b>2.</b>The rank was removed and changed to a journeyboard,</p>
-                            <p>where each block of the journeyboard tracks educators</p>
-                            <p>progress each day they login and complete activities</p>
+                                <p><b>1.</b>It was initially termed as the "Leaderboard," but was later</p>
+                                <p>renamed to "Journeyboard" to encourage collaboration</p>
+                                <p>among students rather than fostering competition</p>
+                                <br></br>
+                                <p><b>2.</b>The rank was removed and changed to a journeyboard,</p>
+                                <p>where each block of the journeyboard tracks educators</p>
+                                <p>progress each day they login and complete activities</p>
                         </div>
 
                         <div className="image-w-30">
@@ -607,36 +643,7 @@ export default function Kikori(){
                         </div>
                     </div>
                 </div>
-
-                <div className="sub-container Test border-t-2 border-black">
-                    <div className="sub-container usability-testing">
-                        <div className="heading-text">
-                            Test
-                        </div>
-                        <div className="sub-text">
-                            Exploring wireframes thoroughly
-                        </div>
-                        <br></br>
-                        <br></br>
-
-                        <div className="sub-heading-text">
-                            Usability Testing
-                        </div>
-
-                        <div className="text-container-column">
-                            <div className="sub-text">
-                                <p>We observed five educators as they interacted with the hi prototype, assessing how they discover, search for, and access activities within the Kikori platform.</p>
-                            </div>
-
-                            <div className="sub-text mt-10">
-                                Those five participants expressed that they:
-                                    <p><b>1.</b>Need less information on the screen</p>
-                                    <p><b>2.</b>Were able to navigate the web app with ease once overcoming challenges with their own tech issues</p>
-                                    <p><b>3.</b>Use Kikori for about five minutes, select the desired activity, and then exit the platform to use the activity in the classroom</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            </div>
 
                 <div className="sub-container Reflection border-t-2 border-black">
                     <div className="heading-text">
@@ -649,10 +656,10 @@ export default function Kikori(){
                         <div className="sub-heading-text">
                             Project Takeaways
                         </div>
-                            <p>I anticipated the challenges embedded in this project from the beginning. Questions surrounding prioritizing essential</p>
-                            <p>activities, navigating the limitations imposed by the restricted time available to teachers in the classroom, and encouraging</p> 
-                            <p>prolonged interaction on the web app were significant. However, I derived genuine satisfaction from designing and</p>
-                            <p>strategizing user flows and interactions throughout the process.</p>
+                            <p>My team and I anticipated the challenges embedded in this project from the beginning. Questions surrounding prioritizing</p>
+                            <p>essential activities, navigating the limitations imposed by the restricted time available to teachers in the classroom, and</p> 
+                            <p>encouraging prolonged interaction on the web app were significant. However, I derived genuine satisfaction from designing</p>
+                            <p>and strategizing user flows and interactions throughout the process.</p>
                             <br></br>
 
                             <p>Here are some key insights:</p>
@@ -668,23 +675,22 @@ export default function Kikori(){
                     <br></br>
                     <br></br>
 
-                    <div className='text-container-row mt-25 design recommendations'>
+                    <div className="sub-text">
                         <div>
                             <div className="sub-heading-text">
                                 Design Recommendations
                             </div>
-                            <p>If I had more time to work on this project,</p>
-                            <p>I would have made these changes to the Journeyboard's design:</p>
-                            <p><b>1.</b>I would have incorporated the days into each block,</p>
-                            <p>enabling educators to easily check the completion status</p>
-                            <p>for each day of the month at a glance.</p>
-                            <br></br>
-                            <p><b>2.</b>I would have also included a section labeled "Badges Earned,"</p>
-                            <p> featuring badge images, to allow educators to conveniently review </p>
-                            <p>their badges and the corresponding days they were earned.</p>
+                                <p>If I had more time to work on this project, I would have made these changes to the Journeyboard's design:</p>
+                                <p><b>1.</b>I would have incorporated the days into each block, enabling educators to easily check the completion status</p>
+                                <p>for each day of the month at a glance.</p>
+                                <br></br>
+                                <p><b>2.</b>I would have also included a section labeled "Badges Earned," featuring badge images, to allow educators to conveniently</p>
+                                <p>review their badges and the corresponding days they were earned.</p>
                         </div>
+                        <br></br>
+                        <br></br>
 
-                        <div className="image-w-30">
+                        <div className="image-w-40">
                             <img src={journeyboard_recommendations}/>
                         </div>
                     </div>
