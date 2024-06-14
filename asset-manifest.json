@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.54a3c625.css",
-    "main.js": "/react-portfolio/static/js/main.19a6a8f1.js",
+    "main.js": "/react-portfolio/static/js/main.2ac62f2f.js",
     "static/js/787.b554861c.chunk.js": "/react-portfolio/static/js/787.b554861c.chunk.js",
     "static/media/Affinity_Map.png": "/react-portfolio/static/media/Affinity_Map.eaf8fde2da03088ed449.png",
     "static/media/affinity_map.png": "/react-portfolio/static/media/affinity_map.0d3b083aa4c173f0f4f8.png",
@@ -59,11 +59,11 @@
     "static/media/LW_Logo.svg": "/react-portfolio/static/media/LW_Logo.60185056e222e8d9bdd218e99bb8193e.svg",
     "index.html": "/react-portfolio/index.html",
     "main.54a3c625.css.map": "/react-portfolio/static/css/main.54a3c625.css.map",
-    "main.19a6a8f1.js.map": "/react-portfolio/static/js/main.19a6a8f1.js.map",
+    "main.2ac62f2f.js.map": "/react-portfolio/static/js/main.2ac62f2f.js.map",
     "787.b554861c.chunk.js.map": "/react-portfolio/static/js/787.b554861c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54a3c625.css",
-    "static/js/main.19a6a8f1.js"
+    "static/js/main.2ac62f2f.js"
   ]
 }
