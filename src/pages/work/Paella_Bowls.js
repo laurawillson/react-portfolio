@@ -16,7 +16,7 @@ export default function Paella_Bowls(){
     const project_title = 'Paella Bowls';
 
     return(
-        <div className="work-container">
+        <div className="work-container text-white">
             <div className='project-title'> {project_title} </div>
             <div className='paella-bowls-homepage-container'>
                 <br></br>

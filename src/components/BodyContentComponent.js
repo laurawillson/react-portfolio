@@ -7,15 +7,15 @@ export default function BodyContentComponent(){
     return(
         <div className={`body-container overflow-x-hidden `}>
             <div id="HOME" className="home-container flex flex-col justify-center align-text-top pt-32 text-white px-10">
-                <div className="home-content flex flex-col my-7 justify-center sm:items-center w-full  text-black">
-                    <p className="text-8xl font-bold">Hello!👋🏼 I'm <div className="text-red-300 inline">Laura</div>.</p>
+                <div className="home-content flex flex-col my-7 justify-center sm:items-center w-full  ">
+                    <p className="text-8xl font-bold">Hello!👋🏼 I'm <div className="text-blue-400 inline">Laura</div>.</p>
                     <br></br>
-                    <p className="font-light text-2xl"> <div className="text-red-300 inline font-bold">UX Designer</div> driven by <div className="text-red-300 inline font-bold">understanding</div> how everyday products influence <div className="text-red-300 inline font-bold">human</div></p>
-                    <p className="font-light text-2xl"><div className="text-red-300 inline font-bold">behavior.</div> My commitment lies in <div className="text-red-300 inline font-bold">empathizing</div>  with users' needs and <div className="text-red-300 inline font-bold">promoting</div></p>
-                    <p className="font-light text-2xl"><div className="text-red-300 inline font-bold">inclusive design principles.</div> Let's chat about user behavior, accessibility, and cats!</p>
+                    <p className="font-light text-2xl"> <div className="text-blue-400 inline font-bold">UX Designer</div> driven by <div className="text-blue-400 inline font-bold">understanding</div> how everyday products influence <div className="text-blue-400 inline font-bold">human</div></p>
+                    <p className="font-light text-2xl"><div className="text-blue-400 inline font-bold">behavior.</div> My commitment lies in <div className="text-blue-400 inline font-bold">empathizing</div>  with users' needs and <div className="text-blue-400 inline font-bold">promoting</div></p>
+                    <p className="font-light text-2xl"><div className="text-blue-400 inline font-bold">inclusive design principles.</div> Let's chat about user behavior, accessibility, and cats!</p>
                 </div>
             </div>
-            <div id="PROJECTS" className="home-container flex flex-col w-full  text-black mt-5">                      
+            <div id="PROJECTS" className="home-container flex flex-col w-full  text-white  mt-5">                      
                 <ThumbnailLinkComponent
                     project_title={"Schedulete"}
                     image_path={Schedulete_Homepage}
@@ -26,7 +26,7 @@ export default function BodyContentComponent(){
                 <ThumbnailLinkComponent
                     project_title={"Kikori"}
                     image_path={Kikori_Homepage}
-                    sentence="Enhancing accessibility to experiential social-emotional learning (eSEL) curriculum for K-12 educators."
+                    sentence="Increasing engagement in experiential social-emotional learning (eSEL) activities for K-12 educators."
                     href_link={"/react-portfolio/Kikori"}
                     overlay_text={"View Case Study"}
                 />

@@ -20,7 +20,7 @@ export default function Schedulete(){
     const project_title = 'Schedulete';
 
     return(
-        <div className="work-container">
+        <div className="work-container text-white">
             <div className='project-title'> {project_title} </div>
             <div className='schedulete-homepage-container m-auto'>
                 <br/>
@@ -42,8 +42,8 @@ export default function Schedulete(){
 
                     <div className="text-container-row">
                         <div className="sub-text w-full">
-                            <p>Schedulete is a web application designed to streamline scheduling and communication for sports coaches, allowing</p>
-                            <p>them to dedicate more time to their teams and less to administrative tasks.</p>
+                            <p>Schedulete is a web application designed to streamline scheduling and communication for sports coaches,</p>
+                            <p>allowing them to dedicate more time to their teams and less to administrative tasks.</p>
                         </div>
                     </div>
                     <br/>
@@ -55,7 +55,8 @@ export default function Schedulete(){
 
                     <div className='flex'>
                         <div className="sub-text mr-9">
-                            <p><b>Role:</b>UX Designer</p>
+                            <p><b>Role:</b></p>
+                            <p>UX Designer</p>
                         </div>
 
                         <div className="sub-text mr-9">
@@ -139,7 +140,7 @@ export default function Schedulete(){
                     </div>
                 </div>
 
-                <div className="sub-container research border-t-2 border-black">
+                <div className="sub-container research border-t-2 border-white">
                     <div className="sub-container research">
                         <div className="heading-text">
                             <br/>
@@ -228,7 +229,7 @@ export default function Schedulete(){
                     </div>
                 </div>
 
-                <div className="sub-container synthesize border-t-2 border-black">
+                <div className="sub-container synthesize border-t-2 border-white">
                     <div className="heading-text">
                     <br/>
                         Synthesize
@@ -265,7 +266,7 @@ export default function Schedulete(){
                     </div>
                 </div>
 
-                <div className="sub-container ideate border-t-2 border-black">
+                <div className="sub-container ideate border-t-2 border-white">
                     <div className="heading-text">
                         <br/>
                         Ideate
@@ -370,7 +371,7 @@ export default function Schedulete(){
                     </div>
                 </div>
 
-                <div className="sub-container Prototype border-t-2 border-black">
+                <div className="sub-container Prototype border-t-2 border-white">
                     <div className="heading-text">
                         <br/>
                         Prototype
@@ -383,25 +384,25 @@ export default function Schedulete(){
                     <br/>
 
                     <div className="sub-heading-text">
-                        Mid-fi Prototype
+                        Hi-fi Prototype
                     </div>
                     <div className="text-container-column">
                         <div className="sub-text mb-10">
                             <p>At this point in the process armed with research-backed solutions for Schedulete, we were excited to translate these</p>
                             <p>insights into clickable form. We used the low-fidelity wireframe sketches and the access we were provided to the</p>
-                            <p>Schedulete webapp to create a mid-fidelity interactive prototype. We found the process more efficient from a visual</p>
-                            <p>perspective given that we were provided access to the website via a staging website where my team and I could log in</p>
-                            <p>and play around with the functions of Schedulete's web app. The mid-fidelity prototype established the core user flow</p>
-                            <p>for scheduling games and contacting other coaches, which enabled its use in a usability study.</p>
+                            <p>Schedulete webapp to create a hi-fidelity interactive prototype. We found the process more efficient from a visual</p>
+                            <p>perspective given that we were provided access to the Schedulete website via a staging website where my team and I</p>
+                            <p>could log in and play around with the functions of Schedulete's web app. The hi-fidelity prototype established the core</p>
+                            <p>user flow for scheduling games and contacting other coaches, which enabled its use in a usability study.</p>
                         </div>
                         <br/>
-                        <a className="text-blue-500 text-center" href="https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-15790&t=4StZ2D5045tXhivT-1&scaling=contain&page-id=0%3A1" target='_blank'>View mid-fidelity prototype</a>
+                        <a className="text-blue-500 text-center" href="https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-15790&t=pXf0Nlbou8IyprZD-1&scaling=contain&page-id=0%3A1" target='_blank'>View hi-fidelity prototype</a>
                         <br/>
                         <br/>
                     </div>
                 </div>
 
-                <div className="sub-container Test border-t-2 border-black">
+                <div className="sub-container Test border-t-2 border-white">
                     <div className="heading-text">
                         <br/>
                         Test
@@ -418,49 +419,46 @@ export default function Schedulete(){
                     </div>
 
                     <div className="text-container-column">
-                        <div className="sub-text">
-                            <p>We prepared a usability test plan to help us stay on track and determine objectives that made sense for our design.</p>
+                        <div className="sub-text"> 
+                            <p>We prepared a <a href="https://docs.google.com/document/d/1gxU9zzatxFr7jTWsfVRCJ4Zf8kLIhDWs-bbOOMX3OnE/edit?usp=sharing">usability test plan</a> to help us stay on track and determine objectives that made sense for our design.</p>
                             <p>Our main goal was to determine if users are able to navigate through the flows with ease and gather their frustrations</p>
                             <p>and feedback.</p>
                             <br/>
-                            <p>We observed <b>five</b>coaches as they interacted with the mid-fi prototype, assessing how they create a game, respond to an</p>
-                            <p>invitation, search for a game, and edit game details.</p>
+                            <p>We observed <b>five</b>coaches as they interacted with the hi-fi prototype, assessing how they search for an open game,</p>
+                            <p>create an open game, send a game invitation, respond to a game invitation, edit game details, select an open game,</p>
+                            <p>and how they access their profile.</p>
                             <br/>
                             <p>Overall, we received positive feedback regarding the features and design of Schedulete, including:</p>
-                            <p><b>1.</b>Users find it easy and simple to create and post open games</p>
-                            <p><b>2.</b>Users appreciate the ability to see other teams' open games and browse for away games</p>
-                            <p><b>3.</b>Users find Schedulete helpful for finding games outside of existing connections</p>
-                            <p><b>4.</b>Users enjoy the ability to view the calendar month to month and the social aspect of experiencing content together</p>
+                            <p><b>1.</b>The 'create game' feature are easy and simple to understand.</p>
+                            <p><b>2.</b>The ability see other teams' open games and browse for away games was an appreciated experience.</p>
+                            <p><b>3.</b>A participant said they would “10/10 recommend Schedulete to a friend”.</p>
                             <br/>
-                            <p>Here are the key action points that guided us in updating the prototype:</p>
-                            <p><b>1.</b>Users want to filter open games by criteria such as division, game type, and day of the week.</p>
-                            <p><b>2.</b>Users want additional features like a calendar view and the ability to schedule non-conference games.</p>
+                            <p>Key action points that guided the prototype update:</p>
+                            <p><b>1. Create filter for open games</b>- Participants want to filter open games by division, game type, and day of the week.</p>
+                            <p><b>2. Create additional features</b>- Participants want a calendar view and the ability to schedule non-conference games.</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="sub-container Project Reflection border-t-2 border-black">
+                <div className="sub-container Project Reflection border-t-2 border-white">
                     <div className="heading-text">
                         <br></br>
                         Final Design 
                     </div>
                     <br></br>
 
-                    <div className="sub-heading-text">
-                        Hi-fi Prototype
-                    </div>
                     <div className="text-container-column">
                         <div className="sub-text mb-10">
                             <p>Based on usability study feedback, we created a high-fidelity prototype that refined the core user flow, including game</p>
                             <p>creation, invitation responses, game searches, and game detail edits, ensuring user-friendliness.</p>
                         </div>
                         <br/>
-                        <a className="text-blue-500 text-center" href="https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-19148&t=sNHnyQJRzTgJ5KtI-1&scaling=contain&page-id=0%3A1https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-15790&t=du22qOI5SoPBVBFD-1&scaling=contain&page-id=0%3A1https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-15790&t=O86puJKeo4H3eNC7-1&scaling=contain&page-id=0%3A1https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-15790&t=z1ukUdOYXB9FN0Bl-1&scaling=contain&page-id=0%3A1https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-15790&t=Mu5h3cvku9qVH3cZ-1&scaling=contain&page-id=0%3A1https://www.figma.com/proto/Smbi7ESkdtE1IkfUZGZcRe/Schedulete-Persona?node-id=714-15790&t=Mu5h3cvku9qVH3cZ-1&scaling=contain&page-id=0%3A1" target='_blank'>View prototype</a>
+                        <a className="text-blue-500 text-center" href="https://www.figma.com/proto/0rCOmakG4p5zZIRECXeuhM/Schedulete?node-id=1-5051&t=qyMbPJqZK9epwJCU-1&scaling=contain&page-id=0%3A1" target='_blank'>View final design</a>
                     </div>
 
                 </div>
 
-                <div className="sub-container Project Reflection border-t-2 border-black">
+                <div className="sub-container Project Reflection border-t-2 border-white">
                     <div className="heading-text">
                         <br/>
                         Project Reflection
@@ -472,11 +470,11 @@ export default function Schedulete(){
                     </div>
                     <div className="text-container-column">
                         <div className="sub-text mb-10">
-                            <p>I knew going into this project that it would be a challenge. What features are most important? Given the coaches not</p>
-                            <p>having enough time to respond to other coaches, what are some ways the web app can provide relief? I found myself</p>
-                            <p>truly enjoying the process of designing and strategizing flows and user interactions. Working on Schedulete was a</p>
-                            <p>rewarding experience. Enhancing the existing platform with my team allowed us to create the best possible MVP, and we</p>
-                            <p>are pleased with the results.</p>
+                            <p>I knew going into this project that it would be a challenge. Given the coaches not having enough time to respond</p>
+                            <p>to other coaches, what are some ways the web app can provide relief? I found myself truly enjoying the process of</p>
+                            <p>designing and strategizing flows and user interactions. Working on Schedulete was a rewarding experience.</p>
+                            <p>Enhancing the existing platform with my team allowed us to create the best possible MVP, and we are pleased</p>
+                            <p>with the results.</p>
                         </div>
                     </div>
 

@@ -32,7 +32,7 @@ export default function Kikori(){
     const project_title = 'Kikori';
 
     return(
-        <div className="work-container">
+        <div className="work-container text-white">
             <div className='project-title'> {project_title}</div>
             <div className='laptop-image-container'>
                 <br></br>
@@ -159,7 +159,7 @@ export default function Kikori(){
                     </div>
                 </div>
 
-                <div className="sub-container reflection border-t-2 border-black">
+                <div className="sub-container reflection border-t-2 border-white">
                     <div className="sub-container research">
                         <div className="heading-text">
                             <br></br>
@@ -244,7 +244,7 @@ export default function Kikori(){
                     </div>
                 </div>
 
-                <div className="sub-container synthesize border-t-2 border-black">
+                <div className="sub-container synthesize border-t-2 border-white">
                     <div className="heading-text">
                         <br></br>
                         Synthesize
@@ -281,7 +281,7 @@ export default function Kikori(){
                     
                 </div>
 
-                <div className="sub-container ideation methods border-t-2 border-black">
+                <div className="sub-container ideation methods border-t-2 border-white">
                     <div className="heading-text">
                         <br></br>
                         Ideate
@@ -356,7 +356,7 @@ export default function Kikori(){
                     <img src={user_journey_map}/>
                 </div>
 
-                <div className="sub-container prototype border-t-2 border-black">
+                <div className="sub-container prototype border-t-2 border-white">
                     <div className="heading-text">
                         <br></br>
                         Prototype
@@ -445,7 +445,7 @@ export default function Kikori(){
                 <br></br>
                 </div>
 
-                <div className="sub-container Test border-t-2 border-black">
+                <div className="sub-container Test border-t-2 border-white">
                     <div className="sub-container usability-testing">
                         <div className="heading-text">
                             Test
@@ -646,7 +646,7 @@ export default function Kikori(){
                 </div>
             </div>
 
-                <div className="sub-container Reflection border-t-2 border-black">
+                <div className="sub-container Reflection border-t-2 border-white">
                     <div className="heading-text">
                         <br></br>
                         Project Reflections

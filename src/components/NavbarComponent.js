@@ -55,24 +55,24 @@ export default function NavbarComponent(){
 
                 <div onClick={()=>window.location.href = '/react-portfolio'}
                 
-                    className="navbar-profile-container flex align-middle text-3xl text-zinc-800 cursor-pointer">
+                    className="navbar-profile-container flex align-middle text-3xl text-white cursor-pointer">
                    <div className="navbar-profile-img">
                         <img className="max-w-xs w-10 rounded-md" src={LW_Logo}/>
                    </div>
                    <div className="profile-text flex items-start ml-2  flex-col justify-start">
-                        <div className="text-base text-zinc-800">Laura Willson</div>
-                        <div className="text-xs text-zinc-800">UX Designer</div>
+                        <div className="text-base ">Laura Willson</div>
+                        <div className="text-xs ">UX Designer</div>
                     </div>
                 </div>
 
                 {/* Hidden on mobile, appears on desktop */}
-                <div className={`hidden w-full bg-transparent text-zinc-800  md:translate-y-0 md:block md:w-auto `} id="desktop-menu">
+                <div className={`hidden w-full bg-transparent text-white  md:translate-y-0 md:block md:w-auto `} id="desktop-menu">
                     <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                         <div className="relative inline-block text-left">
                             <button 
                                 onClick={()=> setShow(!show)}
                                 type="button" 
-                                className="inline-flex w-full justify-center text-zinc-800 bg-transparent  font-medium " 
+                                className="inline-flex w-full justify-center  bg-transparent  font-medium " 
                                 id="menu-button" aria-expanded="true" aria-haspopup="true">
                                 Projects
                                 <svg className="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -106,7 +106,7 @@ export default function NavbarComponent(){
                                             onClick={updateNavActive}
                                             key={index} 
                                             to={items.is_link ? 'react-portfolio/' + items.label : "/#"+ items.label} 
-                                            className="block py-2 pr-4 pl-3 text-zinc-800 bg-transparent rounded md:bg-transparent md:p-0 dark:text-zinc-800" aria-current="page"
+                                            className="block py-2 pr-4 pl-3  bg-transparent rounded md:bg-transparent md:p-0 " aria-current="page"
                                         >
                                             {items.label.replaceAll("_", " ")}
                                         </Link>
@@ -126,7 +126,7 @@ export default function NavbarComponent(){
                         <button 
                             onClick={()=> setShow(!show)}
                             type="button" 
-                            className="inline-flex w-full justify-center text-zinc-800 bg-transparent  font-medium " 
+                            className="inline-flex w-full justify-center text-white bg-transparent  font-medium " 
                             id="menu-button" aria-expanded="true" aria-haspopup="true">
                             Projects
                             <svg className="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

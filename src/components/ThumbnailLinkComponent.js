@@ -13,7 +13,7 @@ export default function ThumbnailLinkComponent({
     const image_thumbnail_hover_cover = "bg-slate-300";
     return(
         <div className="p-10 min-w-[72rem] max-w-[72rem] m-auto">
-            <div className="border-t-2 border-black">
+            <div className="border-t-2 border-white">
                 <div className="mt-2 text-xl font-bold">
                     {project_title}
                 </div>
