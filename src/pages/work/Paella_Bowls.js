@@ -47,8 +47,13 @@ export default function Paella_Bowls(){
                             <li>Wireframing</li>
                             <li>Prototyping</li>
                         </ul>  
-                        <div className="flex"> 
-                            <b>Duration:</b> 7 months
+                        <div className="sub-text mr-9">
+                            <p><b>Tools:</b></p>
+                                <ul>
+                                    <li>Figma</li>
+                                    <li>Zoom</li>
+                                    <li>Google Suite</li>
+                                </ul>  
                         </div>
                     </div>
                 </div>

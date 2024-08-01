@@ -95,8 +95,7 @@ export default function Kikori(){
                                 <li>Slack</li>
                                 <li>Zoom</li>
                                 <li>Workona</li>
-                                <li>Google Docs</li>
-                                <li>Google Drive</li>
+                                <li>Google Suite</li>
                                 <li>Zeplin</li>
                             </ul>  
                         </div>

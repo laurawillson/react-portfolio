@@ -85,8 +85,7 @@ export default function Schedulete(){
                                     <li>FigJam</li>
                                     <li>Slack</li>
                                     <li>Zoom</li>
-                                    <li>Google Docs</li>
-                                    <li>Google Drive</li>
+                                    <li>Google Suite</li>
                                     <li>Whimsical</li>
                                 </ul>  
                         </div>
