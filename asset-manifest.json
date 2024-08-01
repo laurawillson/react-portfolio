@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.e0494d84.css",
-    "main.js": "/react-portfolio/static/js/main.98bcea48.js",
+    "main.css": "/react-portfolio/static/css/main.ac719f77.css",
+    "main.js": "/react-portfolio/static/js/main.78fb1dc0.js",
     "static/js/787.b554861c.chunk.js": "/react-portfolio/static/js/787.b554861c.chunk.js",
     "static/media/Affinity_Map.png": "/react-portfolio/static/media/Affinity_Map.eaf8fde2da03088ed449.png",
     "static/media/affinity_map.png": "/react-portfolio/static/media/affinity_map.0d3b083aa4c173f0f4f8.png",
     "static/media/Schedulete_Homepage.png": "/react-portfolio/static/media/Schedulete_Homepage.cc3f08c62516417d20fa.png",
+    "static/media/Laura_Profile.jpg": "/react-portfolio/static/media/Laura_Profile.b9a9e994dc84d3309b5d.jpg",
     "static/media/Crazy_8_Sketch_1.png": "/react-portfolio/static/media/Crazy_8_Sketch_1.eb09c6922ad56e84a9bb.png",
     "static/media/Beating_PR.jpg": "/react-portfolio/static/media/Beating_PR.a4fcc2110a6c92fe65f7.jpg",
     "static/media/Crazy_8_Sketch_2.png": "/react-portfolio/static/media/Crazy_8_Sketch_2.2c9a637ea58cfc444f5d.png",
@@ -16,11 +17,10 @@
     "static/media/Relaxing_with_the_Pup.jpg": "/react-portfolio/static/media/Relaxing_with_the_Pup.01b762d61a88ea7ec586.jpg",
     "static/media/sketches.png": "/react-portfolio/static/media/sketches.c167cc66deb9b9838b3b.png",
     "static/media/Crazy_8_Sketch_3.png": "/react-portfolio/static/media/Crazy_8_Sketch_3.f6f86bcc5dada785a196.png",
-    "static/media/Laura_Profile.jpg": "/react-portfolio/static/media/Laura_Profile.70986ea032eaaa6ecb45.jpg",
     "static/media/Alice_and_Mr_Kitten.png": "/react-portfolio/static/media/Alice_and_Mr_Kitten.45ff28a2f4e11e7d527a.png",
     "static/media/user_journey_map.png": "/react-portfolio/static/media/user_journey_map.d1553e3489ba14d62f2b.png",
-    "static/media/Seven_Siblings.png": "/react-portfolio/static/media/Seven_Siblings.b4324201ffa5a96b38ea.png",
     "static/media/user_task_flow.png": "/react-portfolio/static/media/user_task_flow.7912e4cd3bc1486a65f0.png",
+    "static/media/Seven_Siblings.png": "/react-portfolio/static/media/Seven_Siblings.60339303519d74c538ef.png",
     "static/media/Persona_1_Anna.png": "/react-portfolio/static/media/Persona_1_Anna.28ec456f6990f5395c74.png",
     "static/media/Alex_User_Persona.png": "/react-portfolio/static/media/Alex_User_Persona.001548dadf685bc67f02.png",
     "static/media/Persona_2_Trish.png": "/react-portfolio/static/media/Persona_2_Trish.e09b789ac2bfb4a57a84.png",
@@ -58,12 +58,12 @@
     "static/media/rating.png": "/react-portfolio/static/media/rating.573e42c07f860ddb0546.png",
     "static/media/LW_Logo.svg": "/react-portfolio/static/media/LW_Logo.60185056e222e8d9bdd218e99bb8193e.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.e0494d84.css.map": "/react-portfolio/static/css/main.e0494d84.css.map",
-    "main.98bcea48.js.map": "/react-portfolio/static/js/main.98bcea48.js.map",
+    "main.ac719f77.css.map": "/react-portfolio/static/css/main.ac719f77.css.map",
+    "main.78fb1dc0.js.map": "/react-portfolio/static/js/main.78fb1dc0.js.map",
     "787.b554861c.chunk.js.map": "/react-portfolio/static/js/787.b554861c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0494d84.css",
-    "static/js/main.98bcea48.js"
+    "static/css/main.ac719f77.css",
+    "static/js/main.78fb1dc0.js"
   ]
 }
