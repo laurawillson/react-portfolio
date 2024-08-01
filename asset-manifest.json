@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.ac719f77.css",
-    "main.js": "/react-portfolio/static/js/main.78fb1dc0.js",
+    "main.js": "/react-portfolio/static/js/main.198a92ef.js",
     "static/js/787.b554861c.chunk.js": "/react-portfolio/static/js/787.b554861c.chunk.js",
     "static/media/Affinity_Map.png": "/react-portfolio/static/media/Affinity_Map.eaf8fde2da03088ed449.png",
     "static/media/affinity_map.png": "/react-portfolio/static/media/affinity_map.0d3b083aa4c173f0f4f8.png",
@@ -40,6 +40,7 @@
     "static/media/key_mockups.png": "/react-portfolio/static/media/key_mockups.922800bcf37e61001402.png",
     "static/media/journeyboard_recommendations.png": "/react-portfolio/static/media/journeyboard_recommendations.4441a9cb2bb2dbc78fea.png",
     "static/media/mockup3.png": "/react-portfolio/static/media/mockup3.b074f537fedd8e8b2c22.png",
+    "static/media/Design_Process.png": "/react-portfolio/static/media/Design_Process.f8868d40fbdcf80d0422.png",
     "static/media/Competitive_Comparative_Analysis.png": "/react-portfolio/static/media/Competitive_Comparative_Analysis.a0b1cfb01b9b961b9e77.png",
     "static/media/user_journey_mapping.png": "/react-portfolio/static/media/user_journey_mapping.180baa523dc7533e5fdb.png",
     "static/media/midfi_screenshot.png": "/react-portfolio/static/media/midfi_screenshot.b3b627c5e9d65c175231.png",
@@ -51,7 +52,6 @@
     "static/media/activities.png": "/react-portfolio/static/media/activities.a1ff6c20ff57ef7af4ee.png",
     "static/media/Site_Map.png": "/react-portfolio/static/media/Site_Map.ad7148e46dec22982955.png",
     "static/media/browse_by_category.png": "/react-portfolio/static/media/browse_by_category.f40ebcdf97494d5d580d.png",
-    "static/media/Design_Process.png": "/react-portfolio/static/media/Design_Process.f8868d40fbdcf80d0422.png",
     "static/media/journeyboard.png": "/react-portfolio/static/media/journeyboard.ab1f071929dbabbdb796.png",
     "static/media/badges.png": "/react-portfolio/static/media/badges.021dd1870cb27aab55a8.png",
     "static/media/mockups2.png": "/react-portfolio/static/media/mockups2.0485086419c8987492cc.png",
@@ -59,11 +59,11 @@
     "static/media/LW_Logo.svg": "/react-portfolio/static/media/LW_Logo.60185056e222e8d9bdd218e99bb8193e.svg",
     "index.html": "/react-portfolio/index.html",
     "main.ac719f77.css.map": "/react-portfolio/static/css/main.ac719f77.css.map",
-    "main.78fb1dc0.js.map": "/react-portfolio/static/js/main.78fb1dc0.js.map",
+    "main.198a92ef.js.map": "/react-portfolio/static/js/main.198a92ef.js.map",
     "787.b554861c.chunk.js.map": "/react-portfolio/static/js/787.b554861c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac719f77.css",
-    "static/js/main.78fb1dc0.js"
+    "static/js/main.198a92ef.js"
   ]
 }
