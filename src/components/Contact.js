@@ -64,23 +64,23 @@ export default function About(){
     return(
         <div className={`body-container overflow-x-hidden`}>
            <div id="Contact" className="home-container flex flex-col justify-center align-text-top  p-30 py-16 text-white px-10">
-
-
                 {
                     buttonText=== 'Sent'
                     ?
-                    <div className="home-content flex flex-col my-7 mt-60 justify-center sm:items-center w-full    text-2xl">
+                    <div className="home-content flex flex-col my-7 mt-60 justify-center sm:items-center w-full text-2xl">
                         Your message has been sent! 📤✉️
                     </div>
                     :
                     <>
-                    <div className="home-content flex flex-col my-7 mt-40 justify-center sm:items-center w-full  ">
-                        <p className="font-bold text-4xl">Get in Touch</p>
+                    <div className="home-content flex flex-col my-7 mt-40 justify-center sm:items-center w-full">
+                        <p className="font-bold text-4xl">✉️ Let's stay in touch</p>
                     </div>
-                    
+
+                    <div className="home-content flex flex-col my-7 mt-10 justify-center sm:items-center w-full">
+                        <p className="font-light text-4xl">Send me an email at: <b>laura.willson.designer@gmail.com</b></p>
+                    </div>
                     </>
                 }
-
             </div>
             
             <Footer/>        
