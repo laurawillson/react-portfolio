@@ -42,8 +42,8 @@ export default function Schedulete(){
 
                     <div className="text-container-row">
                         <div className="sub-text w-full">
-                            <p>Schedulete is a web application designed to streamline scheduling and communication for sports coaches,</p>
-                            <p>allowing them to dedicate more time to their teams and less to administrative tasks.</p>
+                            <p>Schedulete is a web application designed to streamline scheduling and communication for sports coaches, allowing</p>
+                            <p>them to dedicate more time to their teams and less to administrative tasks.</p>
                         </div>
                     </div>
                     <br/>
@@ -257,7 +257,7 @@ export default function Schedulete(){
 
                         <div className="sub-text">
                             <p><b>Key Takeaways</b></p>
-                            <p>From the patterns we identified, <b>three</b>common pain points emerged among the coaches, including:</p>
+                            <p>From the patterns we identified, <b>three</b>common pain points that emerged among the coaches, including:</p>
                             <p><b>1. </b>Difficulties in promptly responding to messages from fellow coaches</p>
                             <p><b>2. </b>Color-coded game types and icons caused confusion</p>
                             <p><b>3. </b>Uncertainty about responding to game invitations and updating game details</p>
@@ -428,7 +428,7 @@ export default function Schedulete(){
                             <p>and how they access their profile.</p>
                             <br/>
                             <p>Overall, we received positive feedback regarding the features and design of Schedulete, including:</p>
-                            <p><b>1.</b>The 'create game' feature are easy and simple to understand.</p>
+                            <p><b>1.</b>The 'create game' feature is easy and simple to understand.</p>
                             <p><b>2.</b>The ability see other teams' open games and browse for away games was an appreciated experience.</p>
                             <p><b>3.</b>A participant said they would “10/10 recommend Schedulete to a friend”.</p>
                             <br/>
@@ -469,11 +469,11 @@ export default function Schedulete(){
                     </div>
                     <div className="text-container-column">
                         <div className="sub-text mb-10">
-                            <p>I knew going into this project that it would be a challenge. Given the coaches not having enough time to respond</p>
-                            <p>to other coaches, what are some ways the web app can provide relief? I found myself truly enjoying the process of</p>
-                            <p>designing and strategizing flows and user interactions. Working on Schedulete was a rewarding experience.</p>
-                            <p>Enhancing the existing platform with my team allowed us to create the best possible MVP, and we are pleased</p>
-                            <p>with the results.</p>
+                            <p>I anticipated that this project would be challenging, especially with the coaches' limited time to respond to each other.</p>
+                            <p>To address this, my team and I brainstormed ways the web app could provide relief. I found myself thoroughly enjoying</p>
+                            <p>the process of designing and strategizing user flows and interactions. Working on Schedulete was incredibly rewarding.</p>
+                            <p>Collaborating with my team to enhance the existing platform allowed us to create the best possible MVP, and we are</p>
+                            <p>pleased with the results.</p>
                         </div>
                     </div>
 
@@ -482,10 +482,10 @@ export default function Schedulete(){
                     </div>
                     <div className="text-container-column">
                         <div className="sub-text mb-10">
-                            <p>If I had more time to work on this project, I would make the following changes:</p>
+                            <p>If I had more time to work on this project, I would implement the following changes:</p>
                             <p><b>1.</b>Craft a focused project plan, prioritizing MVP needs and managing backlogs</p>
-                            <p><b>2.</b>Conduct more user interviews to determine any new areas of need</p>
-                            <p><b>3.</b>Make more improvements to the design of the app</p>
+                            <p><b>2.</b>Conduct more user interviews to determine any new areas of improvement</p>
+                            <p><b>3.</b>Make more improvements to the overall design of the app</p>
                         </div>
                     </div>
                     
@@ -494,8 +494,8 @@ export default function Schedulete(){
                     </div>
                     <div className="text-container-column">
                         <div className="sub-text">
-                            <p>Continuous improvement in coach-to-coach communication and accessing available games is crucial. Usability studies</p>
-                            <p>and user feedback play a significant role in shaping each iteration of the  app's design.</p>
+                            <p>Enhancing coach-to-coach communication and making game availability more accessible are essential for continuous</p>
+                            <p>improvement. Usability studies and user feedback are vital in guiding each iteration of the app's design.</p>
                         </div>
                     </div>
                     <br></br>
