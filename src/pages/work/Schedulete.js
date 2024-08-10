@@ -478,7 +478,7 @@ export default function Schedulete(){
                     </div>
 
                     <div className="sub-heading-text">
-                        <p>Next Steps:</p>
+                        <p>Next Steps</p>
                     </div>
                     <div className="text-container-column">
                         <div className="sub-text mb-10">
@@ -490,7 +490,7 @@ export default function Schedulete(){
                     </div>
                     
                     <div className="sub-heading-text">
-                        <p>What I Learned:</p>
+                        <p>What I Learned</p>
                     </div>
                     <div className="text-container-column">
                         <div className="sub-text">
