@@ -11,8 +11,8 @@ export default function BodyContentComponent(){
                     <p className="text-8xl font-bold">Hello!👋🏼 I'm <div className="text-blue-400 inline">Laura</div>.</p>
                     <br></br>
                     <p className="font-light text-2xl"> <div className="text-blue-400 inline font-bold">UX Designer</div> driven by <div className="text-blue-400 inline font-bold">understanding</div> how everyday products influence <div className="text-blue-400 inline font-bold">human</div></p>
-                    <p className="font-light text-2xl"><div className="text-blue-400 inline font-bold">behavior.</div> My commitment lies in <div className="text-blue-400 inline font-bold">empathizing</div>  with users' needs and <div className="text-blue-400 inline font-bold">promoting</div></p>
-                    <p className="font-light text-2xl"><div className="text-blue-400 inline font-bold">inclusive design principles.</div> Let's chat about user behavior, accessibility, and cats!</p>
+                    <p className="font-light text-2xl"><div className="text-blue-400 inline font-bold">behavior</div>. My commitment lies in <div className="text-blue-400 inline font-bold">empathizing</div>  with users' needs and <div className="text-blue-400 inline font-bold">promoting</div></p>
+                    <p className="font-light text-2xl"><div className="text-blue-400 inline font-bold">inclusive design principles</div>. Let's chat about user behavior, accessibility, and cats!</p>
                 </div>
             </div>
             <div id="PROJECTS" className="home-container flex flex-col w-full  text-white  mt-5">                      
