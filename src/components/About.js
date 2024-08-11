@@ -90,7 +90,7 @@ export default function About(){
                         <br></br>
                         <br></br>
 
-                        <p className="font-bold text-3xl text-center">3 <div className="text-blue-400 inline font-bold">Fun Facts</div> About Me</p>
+                        <p className="font-bold text-3xl text-center">3 <div className="text-blue-400 inline font-bold">fun facts</div> about me</p>
                         <br></br>
 
                         <div className="font-light text-2xl flex">
