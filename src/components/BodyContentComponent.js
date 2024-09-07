@@ -10,9 +10,9 @@ export default function BodyContentComponent(){
                 <div className="home-content flex flex-col my-7 justify-center sm:items-center w-full  ">
                     <p className="text-8xl font-bold">Hello!👋🏼 I'm <div className="text-blue-400 inline">Laura</div>.</p>
                     <br></br>
-                    <p className="font-light text-2xl"> <div className="text-blue-400 inline font-bold">UX Designer</div> driven by <div className="text-blue-400 inline font-bold">understanding</div> how everyday products influence <div className="text-blue-400 inline font-bold">human</div></p>
-                    <p className="font-light text-2xl"><div className="text-blue-400 inline font-bold">behavior</div>. My commitment lies in <div className="text-blue-400 inline font-bold">empathizing</div>  with users' needs and <div className="text-blue-400 inline font-bold">promoting</div></p>
-                    <p className="font-light text-2xl"><div className="text-blue-400 inline font-bold">inclusive design principles</div>. Let's chat about user behavior, accessibility, and cats!</p>
+                    <p className="font-light text-2xl"> <div className="text-blue-400 inline font-bold">UX Designer</div> that <div className="text-blue-400 inline font-bold">empathizes</div> with <div className="text-blue-400 inline font-bold">users' needs</div> and  champions <div className="text-blue-400 inline font-bold">inclusive</div>,</p>
+                    <p className="font-light text-2xl"> <div className="text-blue-400 inline font-bold">accessible</div>  design principles. Let's chat about user behavior, accessibility, and cats!</p>
+                    <p className="font-light text-2xl"></p>
                 </div>
             </div>
             <div id="PROJECTS" className="home-container flex flex-col w-full  text-white  mt-5">                      
