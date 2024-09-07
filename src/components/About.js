@@ -78,11 +78,11 @@ export default function About(){
                                 </div>
                                 <div class="mr-2">
                                     <img className="Beating_PR object-cover h-48 w-96" src={Beating_PR}/>
-                                    <p className="font-light text-lg text-center">🏋🏻‍♀️ Hitting new personal records at the gym</p>
+                                    <p className="font-light text-lg text-center">🏋🏻‍♀️ Working out at the gym</p>
                                 </div>
                                 <div class="mr-2">
                                     <img className="Laura_Taking_Pics object-cover h-48 w-96" src={Laura_Taking_Pics}/>
-                                    <p className="font-light text-lg text-center">📸 Taking pictures throughout NYC</p>
+                                    <p className="font-light text-lg text-center">📸 Snapping photos of NYC</p>
                                 </div>
                             </div>
                         </div>

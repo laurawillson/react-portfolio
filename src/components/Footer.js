@@ -5,7 +5,7 @@ export default function Footer(){
     return(
         <div className="p-10 text-center max-w-[72rem] m-auto text-white">
             <div className="flex align-center text-3xl items-center justify-center">
-                <p className="font-bold  text-2xl justify-center">Thank you for your interest in my work. <div className="text-blue-400 inline font-bold">Let's connect! </div></p>
+                <p className="font-light  text-2xl justify-center">Thank you for your interest in my work. <div className="text-blue-400 inline font-bold">Let's connect! </div></p>
             </div>
 
             <br></br>
