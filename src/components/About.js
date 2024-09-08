@@ -70,7 +70,7 @@ export default function About(){
 
                             <p className="font-bold text-3xl">What are my <div className="text-blue-400 inline font-bold">go-to activities </div>outside of work?</p>
                             <br></br>
-                            <br></br>
+
                             <div className="font-light text-2xl flex">
                                 <div class="mr-2">
                                     <img className="Relaxing_with_the_Pup object-cover h-48 w-96" src={Relaxing_with_the_Pup}/>
@@ -103,7 +103,7 @@ export default function About(){
                                 <img className="Seven_Siblings object-cover h-48 w-96" src={Seven_Siblings}/>
                                     <p className="font-light text-lg text-center">👨🏻‍👩🏻‍👧🏻‍👦🏻 I'm one of eight children, occupying the middle spot in the lineup.</p>
                             </div>
-                            <div >
+                            <div>
                                 <img className="Uncie_and_I object-cover h-48 w-96"  style={{objectPosition: '0 17%'}} src={Uncie_and_I}/>
                                     <p className="font-light text-lg text-center">🥳 My youngest brother and I</p>
                                     <p className="font-light text-lg text-center">share the same birthday, with a</p>
