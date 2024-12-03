@@ -13,7 +13,7 @@ export default function About(){
                 <div className="flex justify-center">
                     <div className="flex flex-col my-7 justify-center sm:items-start w-9/12">
                         <div className='flex justify-between items-start mb-10'>
-                            <p className="text-4xl font-light text-center">👋🏼🗽 I'm Laura, a <div className="text-blue-400 inline font-bold">UX Designer</div> based in <div className="text-blue-400 inline font-bold">NYC</div>.</p>
+                            <p className="text-4xl font-light text-center">👋🏼 I'm Laura, a <div className="text-blue-400 inline font-bold">UX Designer</div> based in <div className="text-blue-400 inline font-bold">NYC</div>.🗽</p>
                         </div>
 
                         <div className="laura-pic m-auto">
@@ -25,16 +25,12 @@ export default function About(){
                         <br></br>
                         <br></br>
                         <br></br>
-                        <p className="font-bold text-3xl">🔍 I embarked on my journey into design <div className="text-blue-400 inline font-bold">2.5 years ago</div>.</p>
+                        <p className="font-bold text-3xl">🔍 I embarked on my journey into UX Design <div className="text-blue-400 inline font-bold">2.5 years ago</div>.</p>
                         
                         <br></br>
 
                         <div className="font-light text-2xl">
-                            <p>Recognizing the potential to merge my background in studio art and computer</p>
-                            <p>science, I ventured into UX Design. This field perfectly aligns with my passions,</p>
-                            <p>enabling me to empathize with users and craft inclusive experiences. I approach</p>
-                            <p>design challenges with a blend of analytical and creative thinking, dedicated to</p>
-                            <p>understanding user needs and advocating for inclusive design principles.</p>
+                            Combining my background in studio art and computer science, I transitioned into UX Design, a field that aligns perfectly with my passions. It allows me to empathize with users while crafting inclusive and impactful experiences. I approach design challenges by blending analytical problem-solving with creative thinking, always focused on understanding user needs and championing inclusive design principles.
                         </div>
 
                         <br></br>
@@ -44,10 +40,7 @@ export default function About(){
                         <p className="font-bold text-3xl">🤔 Why <div className="text-blue-400 inline font-bold">UX Design</div>?</p>
                         <br></br>
                         <div className="font-light text-2xl">
-                            <p>At its core, UX design is about helping people. My experience as an Administrative</p>
-                            <p>Assistant has sharpened my empathy and broadened my understanding of diverse</p>
-                            <p>perspectives. I am eager to continue exploring ways to create a more inclusive and</p>
-                            <p>accessible online environment.</p>
+                            At its core, UX design is about solving real problems for people. My experience as an Administrative Assistant has strengthened my empathy and deepened my understanding of diverse perspectives. I’m excited to keep exploring ways to create more inclusive and accessible digital experiences that meet the needs of all users.
                         </div>
 
                         <br></br>
@@ -67,7 +60,7 @@ export default function About(){
                         <br></br>
                         <br></br>
                         <br></br>
-
+                        
                             <p className="font-bold text-3xl">What are my <div className="text-blue-400 inline font-bold">go-to activities </div>outside of work?</p>
                             <br></br>
 
