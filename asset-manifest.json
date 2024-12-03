@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.ac719f77.css",
-    "main.js": "/react-portfolio/static/js/main.56b39882.js",
+    "main.js": "/react-portfolio/static/js/main.4868ec04.js",
     "static/js/787.b554861c.chunk.js": "/react-portfolio/static/js/787.b554861c.chunk.js",
     "static/media/Affinity_Map.png": "/react-portfolio/static/media/Affinity_Map.eaf8fde2da03088ed449.png",
     "static/media/affinity_map.png": "/react-portfolio/static/media/affinity_map.0d3b083aa4c173f0f4f8.png",
@@ -31,7 +31,6 @@
     "static/media/Uncie_and_I.png": "/react-portfolio/static/media/Uncie_and_I.0e73674e32959897c615.png",
     "static/media/Laura_Taking_Pics.jpg": "/react-portfolio/static/media/Laura_Taking_Pics.8c7d6d5e13d997ef26b4.jpg",
     "static/media/hifi_screenshot.png": "/react-portfolio/static/media/hifi_screenshot.ed2c98fbbca682072bc1.png",
-    "static/media/nine_grid_image.jpg": "/react-portfolio/static/media/nine_grid_image.f8136064bdef678d83e1.jpg",
     "static/media/zoom_call_image.png": "/react-portfolio/static/media/zoom_call_image.94fe877232a980bea638.png",
     "static/media/lofi_screenshot.png": "/react-portfolio/static/media/lofi_screenshot.ca3e16b0f5f7e071be01.png",
     "static/media/Paella_Bowls_Homepage.png": "/react-portfolio/static/media/Paella_Bowls_Homepage.236f67bc80c34dc3484a.png",
@@ -45,12 +44,13 @@
     "static/media/midfi_screenshot.png": "/react-portfolio/static/media/midfi_screenshot.b3b627c5e9d65c175231.png",
     "static/media/before_and_after_first_study.png": "/react-portfolio/static/media/before_and_after_first_study.ad06bac6d2f91e0e2cc6.png",
     "static/media/mockup4.png": "/react-portfolio/static/media/mockup4.2bdfd7fc179bfdc43e88.png",
+    "static/media/nine_grid_image.jpg": "/react-portfolio/static/media/nine_grid_image.d32c02c97d363a68bc86.jpg",
     "static/media/before_and_after_second_study.png": "/react-portfolio/static/media/before_and_after_second_study.155386c683e23b0b7977.png",
     "static/media/User_Task_Flow.png": "/react-portfolio/static/media/User_Task_Flow.f483cd324e1fc770620d.png",
     "static/media/activities.png": "/react-portfolio/static/media/activities.a1ff6c20ff57ef7af4ee.png",
     "static/media/Site_Map.png": "/react-portfolio/static/media/Site_Map.ad7148e46dec22982955.png",
     "static/media/browse_by_category.png": "/react-portfolio/static/media/browse_by_category.f40ebcdf97494d5d580d.png",
-    "static/media/Design_Process.png": "/react-portfolio/static/media/Design_Process.f8868d40fbdcf80d0422.png",
+    "static/media/Design_Process.png": "/react-portfolio/static/media/Design_Process.852739e29021a1d856ec.png",
     "static/media/digital_wireframes.png": "/react-portfolio/static/media/digital_wireframes.0e270734dc390d9e627a.png",
     "static/media/journeyboard.png": "/react-portfolio/static/media/journeyboard.ab1f071929dbabbdb796.png",
     "static/media/badges.png": "/react-portfolio/static/media/badges.021dd1870cb27aab55a8.png",
@@ -60,11 +60,11 @@
     "static/media/LW_Logo.svg": "/react-portfolio/static/media/LW_Logo.60185056e222e8d9bdd218e99bb8193e.svg",
     "index.html": "/react-portfolio/index.html",
     "main.ac719f77.css.map": "/react-portfolio/static/css/main.ac719f77.css.map",
-    "main.56b39882.js.map": "/react-portfolio/static/js/main.56b39882.js.map",
+    "main.4868ec04.js.map": "/react-portfolio/static/js/main.4868ec04.js.map",
     "787.b554861c.chunk.js.map": "/react-portfolio/static/js/787.b554861c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac719f77.css",
-    "static/js/main.56b39882.js"
+    "static/js/main.4868ec04.js"
   ]
 }
