@@ -89,8 +89,8 @@ export default function Schedulete(){
                                     <li>Whimsical</li>
                                 </ul>  
                         </div>
-                    <br/>
-                    <br/>
+                    <br></br>
+                    <br></br>
 
                     <div className="sub-heading-text">
                         The Challenge
@@ -99,6 +99,7 @@ export default function Schedulete(){
                     <div className="sub-text">
                         Improve the user experience for NCAA coaches by streamlining the process of posting and responding to game invitations. The goal is to empower coaches with an intuitive workflow that enhances in-app communication and simplifies progress tracking, making their administrative tasks more efficient.
                     </div>
+                    <br></br>
                     <br></br>
                     
 
@@ -109,11 +110,11 @@ export default function Schedulete(){
                         To gain a deeper understanding of Schedulete's background, market positioning, and user demographics, my team and I established the following objectives:
                         <br></br>
                         <br></br>
-                            <b>1.</b> Design a user-friendly coach communication experience
+                            <b>1.</b>Design a user-friendly coach communication experience
                         <br></br>
-                            <b>2.</b> Craft an intuitive interface aligned with Schedulete's brand and UI standards
+                            <b>2.</b>Craft an intuitive interface aligned with Schedulete's brand and UI standards
                         <br></br>
-                            <b>3.</b> Enhance engagement by streamlining game invitations
+                            <b>3.</b>Enhance engagement by streamlining game invitations
                     </div>
                     <br/>
                     <br/>
@@ -159,10 +160,13 @@ export default function Schedulete(){
 
                         <br></br>
                         <div className="sub-text">
-                            <p>From this analysis, we learned that these competitors:</p>
-                            <p><b>1.</b>Encompass all types of sports</p>
-                            <p><b>2.</b>Allow users to share schedules with others</p>
-                            <p><b>3.</b>Do not provide visibility into other teams' schedules</p>
+                            From this analysis, we learned that these competitors:
+                            <br></br>
+                            <b>1.</b>Encompass all types of sports
+                            <br></br>
+                            <b>2.</b>Allow users to share schedules with others
+                            <br></br>
+                            <b>3.</b>Do not provide visibility into other teams' schedules
                         </div>
                         <br/>
                         <br/>
@@ -195,11 +199,14 @@ export default function Schedulete(){
                         <br></br>
 
                         <div className="sub-text">
-                            <p>We conducted user interviews with four participants, each lasting 20-30 minutes. The participants represented a diverse range of user types, including:</p>
+                            We conducted user interviews with four participants, each lasting 20-30 minutes. The participants represented a diverse range of user types, including:
                             <br></br>
-                            <p><b>1.</b>Coaches who use Schedulete on a weekly basis</p>
-                            <p><b>2.</b>Coaches who recently started using Schedulete</p>
-                            <p><b>3.</b>Coaches who use the app a few times during the month</p>
+                            <br></br>
+                            <b>1.</b>Coaches who use Schedulete on a weekly basis
+                            <br></br>
+                            <b>2.</b>Coaches who recently started using Schedulete
+                            <br></br>
+                            <b>3.</b>Coaches who use the app a few times during the month
                         </div>
                         <br/>
 
@@ -208,10 +215,13 @@ export default function Schedulete(){
                         <br></br>
 
                         <div className="sub-text">
-                            <p>Here are some insights from our interviewees:</p>
-                            <p>"I like to figure out things that I don’t already know." - B</p>
-                            <p>"I like the function of creating a game. It's easy and simple." - J</p>
-                            <p>"I like that Schedulete stands out from other tools on the market, and I especially like that it supports the NCAA." - B</p>
+                            Here are some insights from our interviewees:
+                            <br></br>
+                            "I like to figure out things that I don’t already know." - B
+                            <br></br>
+                            "I like the function of creating a game. It's easy and simple." - J
+                            <br></br>
+                            "I like that Schedulete stands out from other tools on the market, and I especially like that it supports the NCAA." - B
                         </div>
                         <br/>
 
@@ -238,11 +248,12 @@ export default function Schedulete(){
                     </div>
                     <div className="text-container-column">
                         <div className="sub-text">
-                            Using Affinity Mapping, we organized the findings from the user interviews into key pain points and recurring themes. Our analysis highlighted a clear user demand for new features and improvements to enhance the app's usability. This insight allowed us to propose actionable design enhancements, such as adding an option to view other coaches' contact information directly on the main homepage.
+                            Using affinity mapping, we organized the findings from the user interviews into key pain points and recurring themes. Our analysis highlighted a clear user demand for new features and improvements to enhance the app's usability. This insight allowed us to propose actionable design enhancements, such as adding an option to view other coaches' contact information directly on the main homepage.
                         </div>
                         <br></br>
 
                         <img className="w-full" src={Affinity_Map}/>
+                        <br></br>
                         <br></br>
 
                         <div className="sub-heading-text">
@@ -250,7 +261,7 @@ export default function Schedulete(){
                         </div>
 
                         <div className="sub-text">
-                            From the patterns, we uncovered <b>three</b>common pain points among the coaches, including:
+                            From the patterns, we uncovered three common pain points among the coaches, including:
                             <br></br>
                             <b>1. </b>Difficulties in promptly responding to messages from fellow coaches
                             <br></br>
@@ -285,7 +296,7 @@ export default function Schedulete(){
                         <div>
                             <img src={Create_New_Game}/>
                             <br/>
-                            <p>These sketches illustrate different approaches to<b> create a game.</b></p>
+                            These sketches explore various design approaches for creating a game. Each concept focuses on balancing user needs, intuitive interactions, and aesthetic appeal. This early ideation phase helps visualize potential user journeys and refine key features before moving into prototyping.
                         </div>
                         <br/>
                         <br/>
@@ -294,7 +305,7 @@ export default function Schedulete(){
                         <div>
                             <img src={Respond_to_an_Invitation}/>
                             <br/>
-                            <p>These sketches illustrate different approaches to<b> respond to an invitation.</b></p>
+                            These sketches present different design approaches for responding to an invitation, focusing on usability, clarity, and accessibility. Each concept explores how users might interact with the interface to accept, decline, or request more information seamlessly. By visualizing these scenarios, we were able to better assess how design choices impact the user journey and ensure the response process feels intuitive and engaging.
                         </div>
                         <br/>
                         <br/>
@@ -303,7 +314,7 @@ export default function Schedulete(){
                         <div>
                             <img src={Search_for_a_Game}/>
                             <br/>
-                            <p>These sketches illustrate different approaches to<b> search for a game.</b></p>
+                            These sketches explore various design approaches for a game search interface, prioritizing usability, efficiency, and a seamless user experience. Each concept examines how users might filter, sort, and discover games based on preferences such as team, type, date, or location. By visualizing these options, we were able to evaluate which design best supports user needs and aligns with the overall product goals, ensuring an intuitive and engaging search experience.
                         </div>
                         <br/>
                         <br/>
@@ -312,7 +323,7 @@ export default function Schedulete(){
                         <div>
                             <img src={Edit_Game_Details}/>
                             <br/>
-                            <p>These sketches illustrate different approaches to<b> edit game details.</b></p>
+                            These sketches explore various design approaches for editing game details, focusing on usability, clarity, and efficiency. Each concept addresses how users can seamlessly modify key information such as team, type, date, location, and notes while minimizing errors and enhancing workflow. By visualizing these options, we were able to evaluate which design best supports user needs, ensures accessibility, and aligns with the platform's overall functionality.
                         </div>
                     </div>
 
@@ -321,7 +332,7 @@ export default function Schedulete(){
                             Site Map
                         </div>
                         <div className="sub-text">
-                            Next, we conducted a card sorting exercise to define the core information architecture for the various pages and navigation pathways within Schedulete, ensuring an intuitive and user-friendly structure.
+                            Next, we conducted a card sorting exercise to define the core information architecture for Schedulete’s various pages and navigation pathways. This exercise helped us understand how users categorize and prioritize information, ensuring that the final structure would be intuitive and user-friendly. By organizing content in a way that aligns with user mental models, we aimed to create a seamless navigation experience that enhances usability and reduces friction.
                         </div>
                         <br></br>
                         <img className="w-full" src={Site_Map}/>
@@ -333,7 +344,7 @@ export default function Schedulete(){
                             User Task Flow
                         </div>
                         <div className="sub-text">
-                            Next, we created a task flow diagram to map out the typical steps users take to complete key tasks in Schedulete, such as creating and searching for a game. This visualization helped us pinpoint potential obstacles and inefficiencies in the process, enabling us to make targeted improvements. By gaining a deeper understanding of the user's journey, we were able to design more intuitive and seamless interactions that enhance the overall user experience.
+                            We created a task flow diagram to map out the typical steps users take when completing key tasks in Schedulete, such as searching for a game, creating a game, and editing game details. This visualization allowed us to identify potential obstacles and inefficiencies in the process, providing insights for targeted improvements. By gaining a deeper understanding of the user journey, we were able to refine interactions and design more intuitive, seamless experiences that enhance overall usability and satisfaction.
                         </div>
                         <br></br>
                         <img className="w-full" src={User_Task_Flow}/>
@@ -350,9 +361,25 @@ export default function Schedulete(){
                         <br></br>
 
                         <img className="w-full" src={User_Journey_Map}/> 
-                        <br/> 
+                        <br/>
+                        <br/>
+                        <div className="sub-heading-text">
+                            Key Pain Points
+                        </div>
                         <div className="sub-text">       
-                            Through the journey map, we identified that many users struggle with updating game details on Schedulete. Key pain points included difficulties confirming alternative time proposals, locating available time options, understanding game status indicators, and interpreting email notifications. To address these challenges, users often resorted to workarounds, such as checking the calendar or alerts, using the list view, looking for blue dot indicators on the calendar, or making calls to confirm game details. These insights highlighted areas for improvement to streamline the user experience and reduce reliance on manual workarounds.
+                            Through the journey map, we identified several pain points that users face, including:
+                            <br></br>
+                            <b>1.</b>Difficulties confirming alternative time proposals
+                            <br></br>
+                            <b>2.</b>Locating available time options
+                            <br></br>
+                            <b>3.</b>Understanding game status indicators
+                            <br></br>
+                            <b>4.</b>Interpreting email notifications.
+                            <br></br>
+                            <br></br>
+
+                            In response, users often relied on workarounds, such as checking the calendar or alerts, using the list view, searching for blue dot indicators, or calling other coaches to confirm details. These insights revealed critical areas where we could improve the user experience by streamlining processes and reducing the need for manual workarounds.
                         </div>
                     </div>
                 </div>
@@ -412,20 +439,24 @@ export default function Schedulete(){
                         <div className="sub-text">
                             Overall, we received positive feedback on both the features and design of Schedulete, including:
                             <br></br>
-                            <b>1.</b> The "create game" feature was praised for being intuitive and easy to use.
+                            <b>1.</b>The "Create Game" feature was praised for being intuitive and easy to use.
                             <br></br>
-                            <b>2.</b> The ability to view other teams' open games and browse for away games was highly appreciated by users.
+                            <b>2.</b>The ability to view other teams' open games and browse for away games, which was highly appreciated.
                             <br></br>
-                            <b>3.</b> One participant mentioned they would "10/10 recommend Schedulete to a friend," highlighting the app’s appeal and user satisfaction.
+                            <b>3.</b>One participant shared that they would "10/10 recommend Schedulete to a friend," reflecting strong user satisfaction and the app’s overall appeal.
                         </div>
                         <br></br>
+                        <br></br>
 
+                        <div className="sub-heading-text">
+                            Key Action Points
+                        </div>
                         <div className="sub-text">
                             Key action points that informed the prototype update:
                             <br></br>
-                            <b>1.</b> Add filter for open games – Participants expressed a need to filter open games by division, game type, and day of the week to streamline the search process.
+                            <b>1.</b> Add a filter for open games – Participants highlighted the need to filter open games by division, game type, and day of the week to make the search process more efficient.
                             <br></br>
-                            <b>2.</b> Introduce additional features – Users requested a calendar view for better game organization and the ability to schedule non-conference games for increased flexibility.
+                            <b>2.</b> Introduce additional features – Users requested a calendar view for improved game organization and the ability to schedule non-conference games, providing greater flexibility in planning.
                         </div>
                     </div>
                 </div>
@@ -439,7 +470,7 @@ export default function Schedulete(){
 
                     <div className="text-container-column">
                         <div className="sub-text">
-                            Based on feedback from the usability study, we developed a high-fidelity prototype that refined the core user flow. This included streamlining game creation, invitation responses, game searches, and game detail edits, with a focus on enhancing usability and ensuring a more intuitive user experience.
+                            Based on feedback from the usability study, we developed a high-fidelity prototype that refined the core user flow to better align with user needs. This iteration focused on streamlining key tasks such as game creation, invitation responses, game searches, and editing game details. We made improvements to reduce friction and enhance usability, ensuring that each interaction felt more intuitive and efficient. By focusing on these areas, we aimed to provide a smoother, more seamless user experience that addressed pain points identified during testing.
                         </div>
                         <br/>
                         <a className="text-blue-500 text-center" href="https://www.figma.com/proto/0rCOmakG4p5zZIRECXeuhM/Schedulete?node-id=1-5051&t=qyMbPJqZK9epwJCU-1&scaling=contain&page-id=0%3A1" target='_blank'>View final design</a>
@@ -458,7 +489,7 @@ export default function Schedulete(){
                         <p>Project Takeaways</p>
                     </div>
                     <div className="sub-text">
-                        I anticipated that this project would present challenges, particularly given the coaches' limited time to respond to each other. To tackle this, my team and I brainstormed ways the web app could alleviate this pressure. I truly enjoyed the process of designing and optimizing user flows and interactions. Working on Schedulete was both engaging and rewarding. Collaborating with my team to refine the platform helped us deliver the best possible MVP, and we're proud of the outcome.
+                        I anticipated challenges with this project, especially given the coaches' limited time to collaborate. To address this, my team and I brainstormed ways the web app could ease these constraints. I found the process of designing and optimizing user flows and interactions both engaging and rewarding. Working on Schedulete was an exciting opportunity to refine the platform through close collaboration, ultimately delivering an MVP we're proud of.
                     </div>
                     <br></br>
 
@@ -469,11 +500,11 @@ export default function Schedulete(){
                     <div className="sub-text">
                         If I had more time to work on this project, I would focus on the following enhancements:
                         <br></br>
-                        <b>1.</b> Develop a more structured project plan, prioritizing the MVP's core needs and managing feature backlogs effectively.
+                        <b>1.</b>Develop a more structured project plan, prioritizing core MVP features and effectively managing the feature backlog.
                         <br></br>
-                        <b>2. </b> Conduct additional user interviews to uncover new areas for improvement and ensure the design aligns with evolving user needs.
+                        <b>2.</b>Conduct additional user interviews to identify new areas for enhancement and ensure the design continues to meet evolving user needs.
                         <br></br>
-                        <b>3.</b> Refine and enhance the overall design of the app to further optimize usability and the user experience.
+                        <b>3.</b>Refine the app’s overall design to further optimize usability and enhance the user experience.
                     </div>
                     <br></br>
                     
@@ -482,7 +513,7 @@ export default function Schedulete(){
                     </div>
                     
                     <div className="sub-text">
-                        Improving coach-to-coach communication and making game availability more accessible are key areas for continuous enhancement. Usability studies and user feedback play a crucial role in guiding each iteration of the app's design, ensuring we meet user needs and drive ongoing improvements.
+                        Improving coach-to-coach communication and enhancing game availability are crucial areas for ongoing refinement. Usability studies and user feedback are essential in shaping each iteration of the app, ensuring we align with user needs and drive continuous improvements.
                     </div>
                     <br></br>
                     <br></br>

@@ -40,7 +40,7 @@ export default function About(){
                         <p className="font-bold text-3xl">🤔 Why <div className="text-blue-400 inline font-bold">UX Design</div>?</p>
                         <br></br>
                         <div className="font-light text-2xl">
-                            At its core, UX design is about solving real problems for people. My experience as an Administrative Assistant has strengthened my empathy and deepened my understanding of diverse perspectives. I’m excited to keep exploring ways to create more inclusive and accessible digital experiences that meet the needs of all users.
+                            As a UX Designer, my focus is on solving real problems that genuinely impact people's lives. My background as an Administrative Assistant has sharpened my empathy and enriched my understanding of diverse perspectives, both of which drive my approach to design. I’m passionate about creating inclusive, accessible digital experiences that truly meet the needs of all users.
                         </div>
 
                         <br></br>
@@ -48,9 +48,7 @@ export default function About(){
                         <br></br>
 
                         <div className="font-bold text-3xl">
-                            <p>🤝 Moving forward, I aspire to <div className="text-blue-400 inline font-bold">collaborate </div>with fellow</p>
-                            <p>designers in crafting <div className="text-blue-400 inline font-bold">intuitive digital experiences</div> that instill</p>
-                            <p><div className="text-blue-400 inline font-bold">confidence </div>and <div className="text-blue-400 inline font-bold">joy</div> in all users.</p>
+                            🤝 Moving forward, I aspire to <div className="text-blue-400 inline font-bold">collaborate </div>with fellow designers in crafting <div className="text-blue-400 inline font-bold">intuitive digital experiences</div> that instill <div className="text-blue-400 inline font-bold">confidence </div>and <div className="text-blue-400 inline font-bold">joy</div> in all users.
                         </div>
                         <br></br>
                         <br></br>

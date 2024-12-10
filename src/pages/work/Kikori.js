@@ -11,15 +11,14 @@ import crazy8_sketch_2 from '../kikori_imgs/Crazy_8_Sketch_2.png'
 import crazy8_sketch_3 from '../kikori_imgs/Crazy_8_Sketch_3.png'
 import user_task_flow from '../kikori_imgs/user_task_flow.png'
 import user_journey_map from '../kikori_imgs/user_journey_map.png'
-import mockups1 from '../kikori_imgs/hi_fi_designs/mockups1.png';
+import homepage from '../kikori_imgs/hi_fi_designs/homepage.png';
 import activities from '../kikori_imgs/hi_fi_designs/activities.png';
 import browse_by_category from '../kikori_imgs/hi_fi_designs/browse_by_category.png';
-import mockups2 from '../kikori_imgs/hi_fi_designs/mockups2.png';
+import post_survey_feedback from '../kikori_imgs/hi_fi_designs/post_survey_feedback.png';
 import rating from '../kikori_imgs/hi_fi_designs/rating.png';
-import mockups3 from '../kikori_imgs/hi_fi_designs/mockup3.png';
+import badges_before_and_after from '../kikori_imgs/hi_fi_designs/badges_before_and_after.png';
 import badges from '../kikori_imgs/hi_fi_designs/badges.png';
-import mockups4 from '../kikori_imgs/hi_fi_designs/mockup4.png';
-import journeyboard from '../kikori_imgs/hi_fi_designs/journeyboard.png';
+import badges_journeyboard from '../kikori_imgs/hi_fi_designs/badges_journeyboard.png';
 import journeyboard_recommendations from '../kikori_imgs/hi_fi_designs/journeyboard_recommendations.png';
 import lofi_screenshot from '../kikori_imgs/lofi_screenshot.png';
 import midfi_screenshot from '../kikori_imgs/midfi_screenshot.png';
@@ -235,7 +234,7 @@ export default function Kikori(){
                         <br></br>
 
                         <div className="sub-text">
-                            After completing the one-on-one sessions, we synthesized the insights to develop a clearer understanding of our users' needs and behaviors.
+                            After conducting the one-on-one sessions, we synthesized the insights to gain a deeper understanding of our users' needs and behaviors, informing the next steps in our design process.
                         </div>
                     </div>
                 </div>
@@ -270,7 +269,7 @@ export default function Kikori(){
                     </div>
                 
                     <div className="sub-text">
-                        Based on the patterns we identified, three key pain points emerged among educators, including:
+                        Through analyzing the patterns, we identified three key pain points among educators:
                             <br></br>
                             <b>1.</b>Time constraints with conducting activities
                             <br></br>
@@ -298,14 +297,14 @@ export default function Kikori(){
                     </div>
 
                     <div className="sub-text">
-                        We designed and iterated 8 screens for additions and updates on the Kikori platform, ensuring the digital wireframes effectively addressed user pain points.
+                        We designed and iterated on 8 screens for new features and updates on the Kikori platform, focusing on simplifying navigation and improving usability. Through user testing and feedback, we refined the digital wireframes to directly address key pain points, such as streamlining the activity discovery process and enhancing the overall user flow, ensuring a more intuitive and engaging experience for educators.
                     </div>
                     <br></br>
 
                     <img src={crazy8_sketch_1}/>
                     <br></br>
                     <div>
-                        These sketches illustrate screens designed to engage students in interactive activities.
+                        These sketches represent screens designed to engage students in interactive activities by enhancing visual appeal and usability. The goal was to create an intuitive interface that encourages participation, with thoughtful consideration of the user flow to ensure educators can easily navigate and interact with the content. Through user-centered design principles, we focused on optimizing the experience to make learning activities both engaging and accessible.
                     </div>
                     <br></br>
                     <br></br>
@@ -313,7 +312,7 @@ export default function Kikori(){
                     <img src={crazy8_sketch_2}/>
                     <br></br>
                     <div>
-                        These sketches depict questions about the classroom environment paired with recommended activities.
+                        These sketches showcase screens featuring questions about the classroom environment, paired with personalized activity recommendations. The design aims to guide educators in selecting the most relevant activities based on their classroom context, promoting a tailored and effective learning experience. By integrating user feedback, we focused on creating a seamless flow where teachers can easily answer key questions and quickly access activity suggestions that align with their students' needs and learning goals.
                     </div>
                     <br></br>
                     <br></br>
@@ -321,7 +320,7 @@ export default function Kikori(){
                     <img src={crazy8_sketch_3}/>
                     <br></br>
                     <div>
-                        These sketches are designed to foster engagement and capture educators' sentiments.
+                        These sketches are designed to foster engagement by capturing educators' sentiments and feedback in real-time. The goal was to create intuitive interfaces that encourage teachers to share their thoughts and experiences easily, allowing us to gather valuable insights that inform future design iterations. By prioritizing a user-friendly, interactive experience, we aimed to ensure that educators feel heard and that their input directly influences the evolution of the platform.
                     </div>
                     <br></br>
                     <br></br>
@@ -343,7 +342,7 @@ export default function Kikori(){
                     </div>
 
                     <div className="sub-text">
-                        We set out to deepen our understanding of the complete user journey within the app, from start to finish. Our goal was to empathize with the different scenarios, decisions, and paths users might face. To do this, we created a user journey map, which gave us valuable insights into educators' experiences while accessing activities on the Kikori platform.
+                        Our objective was to gain a comprehensive understanding of the entire user journey within the app, from initial interaction to task completion. We aimed to empathize with the diverse scenarios, decisions, and pathways users encounter throughout their experience. To achieve this, we developed a user journey map that helped us visualize the educators’ experience as they navigated the Kikori platform to find and engage with activities. This map provided valuable insights into pain points, emotional touchpoints, and key decision-making moments, allowing us to design more intuitive and user-centered features that better meet the needs of educators.
                     </div>
                     <br></br>
                     <img src={user_journey_map}/>
@@ -417,7 +416,7 @@ export default function Kikori(){
 
                 <div className="text-container-column">
                     <div className="sub-text">
-                        The high fidelity prototype presented cleaner user flows for accessing activities. It also met user needs for quick access to activities and finding engaging activities.
+                        The high-fidelity prototype was designed to streamline user flows, making it easier for educators to access and discover activities with minimal friction. By refining the navigation and simplifying the interaction steps, the prototype addressed key user needs, ensuring quick and intuitive access to activities. It also incorporated feedback from educators, prioritizing features that helped them efficiently find engaging activities for their students, ultimately enhancing the overall user experience and boosting engagement with the platform.
                     </div>
                     <br></br>
                     <img src={hifi_screenshot}/>
@@ -447,11 +446,12 @@ export default function Kikori(){
                         <div className="text-container-column">
                             <div className="sub-text">
                                 The five participants shared the following insights:
-                                <b>1.</b> They preferred less information on the screen for a cleaner, more focused experience.
                                 <br></br>
-                                <b>2.</b> They navigated the web app easily after resolving personal tech challenges.
+                                <b>1.</b>Preferred less information on the screen for a more focused experience.
                                 <br></br>
-                                <b>3.</b> They used Kikori for five minutes to select an activity, then exited to implement the activity in the classroom.
+                                <b>2.</b>Navigated the web app easily after resolving personal tech challenges.
+                                <br></br>
+                                <b>3.</b>Used Kikori for five minutes to select an activity, then exited to implement the activity in the classroom.
                             </div>
                         </div>
                         <br></br>
@@ -463,24 +463,24 @@ export default function Kikori(){
 
                         <div className="text-container-column">
                             <div className="sub-text">
-                                High-fidelity prototypes helped us evaluate key user tasks from the interviews. While the tasks were straightforward, UI testing revealed that some elements needed reassessment, with many participants noting confusion due to the homepage's information overload.
+                                High-fidelity prototypes allowed us to evaluate key user tasks identified during interviews, providing a clearer picture of how users interact with the platform. While the tasks themselves were straightforward, our UI testing uncovered areas for improvement. Many participants expressed confusion due to the overwhelming amount of information on the homepage, highlighting the need to simplify and prioritize content. This feedback led us to reassess the layout and information hierarchy, ensuring a more intuitive and streamlined user experience.
                             </div>
                         </div>
                         <br></br>
                         <br></br>
 
-                        <div className='text-container-row mt-10 mockups1'>
+                        <div className='text-container-row mt-10 homepage'>
                             <div>
                                 <div className="sub-heading-text">
-                                    Homepage Mockups
+                                    Homepage
                                 </div>
-                                <b>1.</b><b>Before</b>usability study.
+                                <b>1.</b><b>Before</b>usability study
                                 <br></br>
                                 <br></br>
-                                <b>2.</b><b>After</b>usability study.
+                                <b>2.</b><b>After</b>usability study
                             </div>
                             <div className="image-w-30">
-                                <img src={mockups1}/>
+                                <img src={homepage}/>
                             </div>
                         </div>
                         <br></br>
@@ -507,7 +507,7 @@ export default function Kikori(){
                         <br></br>
                         <br></br>
 
-                        <div className='text-container-row mt-20 activites'>
+                        <div className='text-container-row mt-20 browse by category'>
                             <div>
                                 <div className="sub-heading-text">
                                     Browse by Category
@@ -528,10 +528,10 @@ export default function Kikori(){
                         <br></br>
                         <br></br>
 
-                        <div className='text-container-row mt-20 activites'>
+                        <div className='text-container-row mt-20 postsurveyfeedback'>
                             <div>
                                 <div className="sub-heading-text">
-                                    After-activity Mockups
+                                    Post Survey Feedback
                                 </div>
                                 <b>1.</b><b>Before</b>usability study
                                 <br></br>
@@ -540,23 +540,21 @@ export default function Kikori(){
                             </div>
 
                             <div className="image-w-30">
-                                <img src={mockups2}/>
+                                <img src={post_survey_feedback}/>
                             </div>
                         </div>
                         <br></br>
                         <br></br>
 
-                        <div className='text-container-row mt-20 activites'>
+                        <div className='text-container-row mt-20 rating'>
                             <div>
                                 <div className="sub-heading-text">
                                     Rating
                                 </div>
-                                <b>1.</b>Split question into two to better understand educators' experiences
+                                <b>1.</b>Split the user survey question into two to gain deeper insights into educators' experiences.
                                 <br></br>
                                 <br></br>
-                                <b>2.</b>‘Easy,’ ‘Medium,’ and ‘Difficult’ responses
-                                <br></br>
-                                were replaced with a more familiar star rating system.
+                                <b>2.</b>Replaced the ‘Easy,’ ‘Medium,’ and ‘Difficult’ options with a familiar star rating system to improve usability and gather more accurate feedback.
                             </div>
 
                             <div className="image-w-30">
@@ -566,36 +564,32 @@ export default function Kikori(){
                         <br></br>
                         <br></br>
 
-                    <div className='text-container-row mt-20 activites'>
+                    <div className='text-container-row mt-20 badges_before_and_after'>
                         <div>
                         <div className="sub-heading-text">
-                            Badges Mockups
+                            Badges
                         </div>
-                            <p><b>1.</b>Badges page <b>before</b>usability study</p>
+                            <b>1.</b>Before usability study
                             <br></br>
-                            <p><b>2.</b>Badges page <b>after</b>usability study</p>
+                            <b>2.</b>After usability study
                         </div>
 
                         <div className="image-w-30">
-                            <img src={mockups3}/>
+                            <img src={badges_before_and_after}/>
                         </div>
                     </div>
                     <br></br>
                     <br></br>
 
-                    <div className='text-container-row mt-20 activites'>
+                    <div className='text-container-row mt-20 badges'>
                         <div>
                         <div className="sub-heading-text">
                             Badges
                         </div>
-                            <b>1.</b>Badges were relocated to a separate page
+                            <b>1.</b>Relocated badges to a dedicated page and added locked badges to motivate activity completion.
                             <br></br>
                             <br></br>
-                            <b>2.</b>The badge names were added to badge
-                            <br></br>
-                            images, indicating both earned and locked
-                            <br></br>
-                            badges for educators
+                            <b>2.</b>Renamed 'Leaderboard' to 'Journeyboard' to encourage collaboration and shared progress among students.
                         </div>
 
                         <div className="image-w-30">
@@ -603,37 +597,19 @@ export default function Kikori(){
                         </div>
                     </div>
 
-                    <div className='text-container-row mt-20 activites'>
+                    <div className='text-container-row mt-20 badges_journeyboard'>
                         <div>
                         <div className="sub-heading-text">
-                            Journeyboard Mockups
+                            Journeyboard
                         </div>
-                            <p><b>1.</b>Journeyboard<b> before</b>usability testing</p>
+                            <b>1.</b>Before usability testing
                             <br></br>
-                            <p><b>2.</b>Journeyboard<b> after</b>usability testing</p>
+                            <br></br>
+                            <b>2.</b>After usability testing
                         </div>
 
                         <div className="image-w-30">
-                            <img src={mockups4}/>
-                        </div>
-                    </div>
-
-                    <div className='text-container-row mt-20 journeyboard'>
-                        <div>
-                            <div className="sub-heading-text">
-                                Journeyboard
-                            </div>
-                                <b>1.</b>Originally called the "Leaderboard,"
-                                it was renamed "Journeyboard" to promote
-                                collaboration among students.
-                                <br></br>
-                                <br></br>
-                                <b>2.</b>The leaderboard was removed to foster
-                                collaboration among students.
-                        </div>
-
-                        <div className="image-w-30">
-                            <img src={journeyboard}/>
+                            <img src={badges_journeyboard}/>
                         </div>
                     </div>
                 </div>
