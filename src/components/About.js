@@ -13,7 +13,7 @@ export default function About(){
                 <div className="flex justify-center">
                     <div className="flex flex-col my-7 justify-center sm:items-start w-9/12">
                         <div className='flex justify-between items-start mb-10'>
-                            <p className="text-4xl font-light text-center">👋🏼 I'm Laura, a <div className="text-blue-400 inline font-bold">UX Designer</div> based in <div className="text-blue-400 inline font-bold">NYC</div>.🗽</p>
+                            <p className="text-4xl font-light text-center">I'm Laura, a <div className="text-blue-400 inline font-bold">UX Designer</div> based in <div className="text-blue-400 inline font-bold">NYC</div>.🗽</p>
                         </div>
 
                         <div className="laura-pic m-auto">
@@ -40,7 +40,7 @@ export default function About(){
                         <p className="font-bold text-3xl">🤔 Why <div className="text-blue-400 inline font-bold">UX Design</div>?</p>
                         <br></br>
                         <div className="font-light text-2xl">
-                            As a UX Designer, my focus is on solving real problems that genuinely impact people's lives. My background as an Administrative Assistant has sharpened my empathy and enriched my understanding of diverse perspectives, both of which drive my approach to design. I’m passionate about creating inclusive, accessible digital experiences that truly meet the needs of all users.
+                            As a UX Designer, my focus is on solving real problems that impact people's lives. My background as an Administrative Assistant has sharpened my empathy and enriched my understanding of diverse perspectives, both of which drive my approach to design. I’m passionate about creating inclusive, accessible digital experiences that truly meet the needs of all users.
                         </div>
 
                         <br></br>
