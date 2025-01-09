@@ -30,7 +30,7 @@ export default function NavbarComponent(){
     return(
         <>
         <nav className="navbar-container fixed w-full h-20 z-20  p-6 sm:px-4 ">
-            <div className="container flex  flex-wrap  w-full justify-between items-center mx-auto ">
+            <div className="container flex  flex-wrap flex-row-reverse md:flex-row w-full justify-between items-center mx-auto ">
                 <button id="mobile-button" type="button" 
                 onClick={handleMobileBarClick}
                 className={`

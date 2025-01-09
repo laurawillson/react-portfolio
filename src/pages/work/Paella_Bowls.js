@@ -31,12 +31,12 @@ export default function Paella_Bowls(){
                     Overview
                 </div>
                 <br></br>
-                <div className="text-container-row">
-                    <div className="sub-text w-1/2">
+                <div className="text-container-col">
+                    <div className="sub-text ">
                         Paella Bowls is a mobile application dedicated to offering delectable paella dishes. Designed to cater to busy commuters, it simplifies the process of ordering mouthwatering paellas for both lunch and dinner.                    
                     </div>
 
-                    <div className="text-container-column ml-10">
+                    <div className="text-container-column mt-5">
                         <div className="flex"> 
                             <b>Role:</b> UX Designer
                         </div>
@@ -71,11 +71,11 @@ export default function Paella_Bowls(){
                         Create a mobile application tailored for a traditional Spanish dining experience.
                     </div>
 
-                    <div className="text-container-row mt-10">
-                        <div className="flex w-1/2"> 
+                    <div className="text-container-col mt-5">
+                        <div className="flex "> 
                             <b>Problem:</b> Busy commuters often find themselves short on time to cook meals.
                         </div>
-                        <div className="flex w-1/2"> 
+                        <div className="flex mt-2"> 
                             <b>Solution:</b> Craft an app that enables seamless ordering of paella dishes for either pickup or delivery.
                         </div>
                     </div>
@@ -172,7 +172,7 @@ export default function Paella_Bowls(){
                     </div>
                     <br></br>
 
-                    <div className="text-container-column ml-10">
+                    <div className="text-container-column ">
                         <div className="flex"> 
                             <b>Round 1 Insights:</b>
                         </div>
@@ -184,7 +184,7 @@ export default function Paella_Bowls(){
                     </div>
                     <br></br>
 
-                    <div className="text-container-column ml-10">
+                    <div className="text-container-column">
                         <div className="flex"> 
                             <b>Round 2 Insights:</b>
                         </div>
