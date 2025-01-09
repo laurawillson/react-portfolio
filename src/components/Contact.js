@@ -63,7 +63,7 @@ export default function About(){
     }
     return(
         <div className={`body-container overflow-x-hidden`}>
-           <div id="Contact" className="home-container flex flex-col justify-center align-text-top  p-30 py-16 text-white px-10">
+           <div id="Contact" className="home-container flex flex-col justify-center align-text-top   py-16 text-white ">
                 {
                     buttonText=== 'Sent'
                     ?
@@ -73,11 +73,11 @@ export default function About(){
                     :
                     <>
                     <div className="home-content flex flex-col my-7 mt-40 justify-center sm:items-center w-full">
-                        <p className="font-bold text-4xl">✉️ Let's stay in touch</p>
+                        <p className="font-bold text-lg md:text-4xl text-center">✉️ Let's stay in touch</p>
                     </div>
 
-                    <div className="home-content flex flex-col my-7 mt-10 justify-center sm:items-center w-full">
-                        <p className="font-light text-4xl">Send me an email at: <b>laura.willson.designer@gmail.com</b></p>
+                    <div className="home-content flex flex-col my-2 md:my-7  justify-center sm:items-center w-full">
+                        <p className="font-light text-lg md:text-4xl text-center">Send me an email at: <b>laura.willson.designer@gmail.com</b></p>
                     </div>
                     </>
                 }

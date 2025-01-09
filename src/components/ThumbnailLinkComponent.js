@@ -12,7 +12,7 @@ export default function ThumbnailLinkComponent({
 }){
     const image_thumbnail_hover_cover = "bg-slate-300";
     return(
-        <div className="p-10 min-w-[72rem] max-w-[72rem] m-auto">
+        <div className="px-5 md:px-10 py-10 max-w-[72rem] m-auto">
             <div className="border-t-2 border-white">
                 <div className="mt-2 text-xl font-bold">
                     {project_title}
@@ -45,7 +45,7 @@ export default function ThumbnailLinkComponent({
                 </div>
                 <div className="group relative bg-white rounded-md">
                     <Link to={href_link}>
-                        <img className="w-full object-contain w-full max-h-[500px] rounded-md"
+                        <img alt={href_link} className="w-full object-contain max-h-[500px] rounded-md"
                             src={image_path} 
                         />
                         <div className="absolute top-5 right-5 group-hover:opacity-100">
@@ -55,7 +55,7 @@ export default function ThumbnailLinkComponent({
                             className={`absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center ${image_thumbnail_hover_cover} opacity-0 group-hover:opacity-50 duration-500`}>
                         </div>
                         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center  opacity-0 group-hover:opacity-100 duration-500">
-                            <h1 className="text-2xl text-slate-700 group-hover:opacity-100 p-5 rounded-full bg-white flex justify-center items-center">
+                            <h1 className="text-lg md:text-2xl text-slate-700 group-hover:opacity-100 p-5 rounded-full bg-white flex justify-center items-center">
                                 {overlay_text}
                             </h1>
                         </div>

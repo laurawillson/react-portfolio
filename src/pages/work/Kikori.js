@@ -469,7 +469,7 @@ export default function Kikori(){
                         <br></br>
                         <br></br>
 
-                        <div className='text-container-row mt-10 homepage'>
+                        <div className='text-container-col mt-10 homepage'>
                             <div>
                                 <div className="sub-heading-text">
                                     Homepage
@@ -486,7 +486,7 @@ export default function Kikori(){
                         <br></br>
                         <br></br>
 
-                        <div className='text-container-row mt-20 activites'>
+                        <div className='text-container-col mt-20 activites'>
                             <div>
                                 <div className="sub-heading-text">
                                     Activities
@@ -507,7 +507,7 @@ export default function Kikori(){
                         <br></br>
                         <br></br>
 
-                        <div className='text-container-row mt-20 browse by category'>
+                        <div className='text-container-col mt-20 browse by category'>
                             <div>
                                 <div className="sub-heading-text">
                                     Browse by Category
@@ -528,7 +528,7 @@ export default function Kikori(){
                         <br></br>
                         <br></br>
 
-                        <div className='text-container-row mt-20 postsurveyfeedback'>
+                        <div className='text-container-col mt-20 postsurveyfeedback'>
                             <div>
                                 <div className="sub-heading-text">
                                     Post Survey Feedback
@@ -546,7 +546,7 @@ export default function Kikori(){
                         <br></br>
                         <br></br>
 
-                        <div className='text-container-row mt-20 rating'>
+                        <div className='text-container-col mt-20 rating'>
                             <div>
                                 <div className="sub-heading-text">
                                     Rating
@@ -564,7 +564,7 @@ export default function Kikori(){
                         <br></br>
                         <br></br>
 
-                    <div className='text-container-row mt-20 badges_before_and_after'>
+                    <div className='text-container-col mt-20 badges_before_and_after'>
                         <div>
                         <div className="sub-heading-text">
                             Badges
@@ -581,7 +581,7 @@ export default function Kikori(){
                     <br></br>
                     <br></br>
 
-                    <div className='text-container-row mt-20 badges'>
+                    <div className='text-container-col mt-20 badges'>
                         <div>
                         <div className="sub-heading-text">
                             Badges
@@ -597,7 +597,7 @@ export default function Kikori(){
                         </div>
                     </div>
 
-                    <div className='text-container-row mt-20 badges_journeyboard'>
+                    <div className='text-container-col mt-20 badges_journeyboard'>
                         <div>
                         <div className="sub-heading-text">
                             Journeyboard

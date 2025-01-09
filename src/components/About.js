@@ -9,7 +9,7 @@ import Footer from './Footer';
 export default function About(){
     return(
         <div className={`body-container overflow-x-hidden`}>
-            <div id="About" className="flex flex-col w-full p-30 pt-40 pb-30 text-white my-5 min-w-[72rem] max-w-[72rem] m-auto">
+            <div id="About" className="flex flex-col w-full p-30 pt-20 pb-30 text-white my-5 max-w-[72rem] m-auto">
                 <div className="flex justify-center">
                     <div className="flex flex-col my-7 justify-center sm:items-start w-9/12">
                         <div className='flex justify-between items-start mb-10'>
@@ -62,17 +62,17 @@ export default function About(){
                             <p className="font-bold text-3xl">What are my <div className="text-blue-400 inline font-bold">go-to activities </div>outside of work?</p>
                             <br></br>
 
-                            <div className="font-light text-2xl flex">
-                                <div class="mr-2">
-                                    <img className="Relaxing_with_the_Pup object-cover h-48 w-96" src={Relaxing_with_the_Pup}/>
-                                    <p className="font-light text-lg text-center">🐈 Relaxing with my cats</p>
+                            <div className="font-light text-2xl flex flex-col md:flex-row">
+                                <div class="mr-2 mb-5 md:mb-0 text-center">
+                                    <img className="Relaxing_with_the_Pup object-cover h-48 w-96 m-auto" src={Relaxing_with_the_Pup}/>
+                                    <p className="font-light text-lg ">🐈 Relaxing with my cats</p>
                                 </div>
-                                <div class="mr-2">
-                                    <img className="Beating_PR object-cover h-48 w-96" src={Beating_PR}/>
+                                <div class="mr-2 mb-5 md:mb-0">
+                                    <img className="Beating_PR object-cover h-48 w-96 m-auto" src={Beating_PR}/>
                                     <p className="font-light text-lg text-center">🏋🏻‍♀️ Working out at the gym</p>
                                 </div>
-                                <div class="mr-2">
-                                    <img className="Laura_Taking_Pics object-cover h-48 w-96" src={Laura_Taking_Pics}/>
+                                <div class="mr-2 mb-5 md:mb-0">
+                                    <img className="Laura_Taking_Pics object-cover h-48 w-96 m-auto" src={Laura_Taking_Pics}/>
                                     <p className="font-light text-lg text-center">📸 Snapping photos of NYC</p>
                                 </div>
                             </div>
@@ -81,21 +81,21 @@ export default function About(){
                         <br></br>
                         <br></br>
 
-                        <p className="font-bold text-3xl text-center">3 <div className="text-blue-400 inline font-bold">fun facts</div> about me</p>
+                        <p className="m-auto md:m-0 font-bold text-3xl text-center">Three <div className="text-blue-400 inline font-bold">fun facts</div> about me</p>
                         <br></br>
 
-                        <div className="font-light text-2xl flex">
-                            <div class="mr-2">
-                                <img className="Alice_and_Mr_Kitten object-cover h-48 w-96" src={Alice_and_Mr_Kitten}/>
+                        <div className="font-light text-2xl flex flex-col md:flex-row">
+                            <div class="mb-5 md:mb-0 md:mr-2">
+                                <img className="Alice_and_Mr_Kitten object-cover h-48 w-96 m-auto" src={Alice_and_Mr_Kitten}/>
                                     <p className="font-light text-lg text-center">🐈 I have two adorable cats,</p>
                                     <p className="font-light text-lg text-center">Alice (left) and Mr. Kitten (right).</p>
                             </div>
-                            <div class="mr-2">
-                                <img className="Seven_Siblings object-cover h-48 w-96" src={Seven_Siblings}/>
+                            <div class="mb-5 md:mb-0 md:mr-2">
+                                <img className="Seven_Siblings object-cover h-48 w-96 m-auto" src={Seven_Siblings}/>
                                     <p className="font-light text-lg text-center">👨🏻‍👩🏻‍👧🏻‍👦🏻 I'm one of eight children, occupying the middle spot in the lineup.</p>
                             </div>
                             <div>
-                                <img className="Uncie_and_I object-cover h-48 w-96"  style={{objectPosition: '0 17%'}} src={Uncie_and_I}/>
+                                <img className="Uncie_and_I object-cover h-48 w-96 m-auto"  style={{objectPosition: '0 17%'}} src={Uncie_and_I}/>
                                     <p className="font-light text-lg text-center">🥳 My youngest brother and I</p>
                                     <p className="font-light text-lg text-center">share the same birthday, with a</p>
                                     <p className="font-light text-lg text-center">nine-year age difference between us.</p>
